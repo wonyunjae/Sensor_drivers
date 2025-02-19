@@ -55,11 +55,11 @@ def hex_to_ieee(len, buff):
 if __name__ == "__main__":
     rospy.init_node("imu")
 
-    port = rospy.get_param("~port", "/dev/ttyUSB0")
+    port = rospy.get_param("~port", "/dev/serial/by-id/usb-Silicon_Labs_HandsFree_IMU_USB_to_UART_Bridge_Controller_0001-if00-port0")
     baudrate = rospy.get_param("~baudrate", 921600)
 
     try:
-        hf_imu = serial.Serial(port='/dev/ttyUSB0', baudrate=9600, timeout=0.5)
+        hf_imu = serial.Serial(port=port, baudrate=baudrate, timeout=0.5)
         if hf_imu.isOpen():
             rospy.loginfo("imu connect success")
         else:
