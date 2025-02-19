@@ -2,8 +2,9 @@
 drivers of sensors in 108
 /ROS 1 noetic
 
-<작성 규칙>
-잘못된 merge로 디버깅이 어려울 수 있으니 각자의 브랜치를 생성해 관리 부탁드립니다 ! (main에 push 조심)
+### 작성 규칙
+
+- main에 잘못 merge될 경우 디버깅이 어려울 수 있어 각자의 브랜치 생성 후 관리 부탁드립니다 !
 
 
 
