@@ -10,10 +10,10 @@ from geometry_msgs.msg import Quaternion
 from sensor_msgs.msg import Imu
 from sensor_msgs.msg import MagneticField
 
-cov_orientation = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-cov_angular_velocity = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-cov_linear_acceleration = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-cov_magnetic_field = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+cov_orientation = [0.0] * 9
+cov_angular_velocity = [0.0] * 9
+cov_linear_acceleration = [0.0] * 9
+cov_magnetic_field = [0.0] * 9
 
 
 def eul_to_qua(Eular):
@@ -40,67 +40,73 @@ def receive_split(receive_buffer):
     return buff
 
 
-def hex_to_ieee(len, buff):
-    str = ''
+def hex_to_ieee(length, buff):
+    hex_str = ''
     data = []
-    for i in range(len / 2 - 3, 11, -4):
-        for j in range(i, i - 4, -1):
-            str += buff[j]
-        data.append(struct.unpack('>f', str.decode('hex'))[0])
-        str = ''
-    data.reverse()
-    return data
+    try:
+        for i in range(length // 2 - 3, 11, -4):
+            for j in range(i, i - 4, -1):
+                hex_str += buff[j]
+            # Python3에서는 bytes.fromhex() 사용
+            data.append(struct.unpack('>f', bytes.fromhex(hex_str))[0])
+            hex_str = ''
+        data.reverse()
+        return data
+    except Exception as e:
+        rospy.logerr(f"Error in hex_to_ieee: {e}")
+        return [0.0] * 3
 
 
 if __name__ == "__main__":
     rospy.init_node("imu")
 
-    port = rospy.get_param("~port", "/dev/serial/by-id/usb-Silicon_Labs_HandsFree_IMU_USB_to_UART_Bridge_Controller_0001-if00-port0")
+    port = rospy.get_param("~port", "/dev/ttyUSB0")
     baudrate = rospy.get_param("~baudrate", 921600)
 
     try:
         hf_imu = serial.Serial(port=port, baudrate=baudrate, timeout=0.5)
         if hf_imu.isOpen():
-            rospy.loginfo("imu connect success")
+            rospy.loginfo("IMU 연결 성공")
         else:
             hf_imu.open()
-            rospy.loginfo("imu is open")
+            rospy.loginfo("IMU 포트 열림")
 
-    except Exception as e:  # Python 3 style exception handling
-        rospy.logerr(e)
-        rospy.logerr("Cannot find ttyUSB0, please check IMU connection")
+    except Exception as e:
+        rospy.logerr(f"IMU 연결 오류: {e}")
+        rospy.logerr("ttyUSB0를 찾을 수 없습니다. IMU 연결을 확인하세요.")
         exit()
 
-    else:
-        imu_pub = rospy.Publisher("handsfree/imu", Imu, queue_size=10)
-        mag_pub = rospy.Publisher("handsfree/mag", MagneticField, queue_size=10)
-        sensor_data = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        while not rospy.is_shutdown():
+    imu_pub = rospy.Publisher("handsfree/imu", Imu, queue_size=10)
+    mag_pub = rospy.Publisher("handsfree/mag", MagneticField, queue_size=10)
+    sensor_data = [0.0] * 11
+
+    while not rospy.is_shutdown():
+        try:
             count = hf_imu.inWaiting()
             if count > 24:
-                # bytearray() 方法返回一个新字节数组。这个数组里的元素是可变的，并且每个元素的值范围: 0 <= x < 256
-                receive_buffer = bytearray()
-                receive_buffer = binascii.b2a_hex(hf_imu.read(count))
+                raw_data = hf_imu.read(count)
+                # Python3에서는 binascii.hexlify()의 결과를 decode해야 함
+                receive_buffer = binascii.hexlify(raw_data).decode('utf-8')
                 receive_len = len(receive_buffer)
                 stamp = rospy.get_rostime()
                 buff = receive_split(receive_buffer)
 
-                if buff[0]+buff[1]+buff[2] == 'aa552c':
+                if ''.join(buff[0:3]) == 'aa552c':
                     sensor_data = hex_to_ieee(receive_len, buff)
                 rpy_degree = []
 
-                if buff[0]+buff[1]+buff[2] == 'aa5514':
+                if ''.join(buff[0:3]) == 'aa5514':
                     rpy = hex_to_ieee(receive_len, buff)
-                    rpy_degree.append(rpy[0] / 180 * math.pi)
-                    rpy_degree.append(rpy[1] / -180 * math.pi)
-                    rpy_degree.append(rpy[2] / -180 * math.pi)
+                    rpy_degree = [
+                        rpy[0] / 180 * math.pi,
+                        rpy[1] / -180 * math.pi,
+                        rpy[2] / -180 * math.pi
+                    ]
 
                     imu_msg = Imu()
-
                     imu_msg.header.stamp = stamp
                     imu_msg.header.frame_id = "base_link"
 
-                    # 调用 eul_to_qua , 将欧拉角转四元数
                     imu_msg.orientation = eul_to_qua(rpy_degree)
                     imu_msg.orientation_covariance = cov_orientation
 
@@ -117,8 +123,8 @@ if __name__ == "__main__":
                     imu_pub.publish(imu_msg)
 
                     mag_msg = MagneticField()
-                    mag_msg.header.stamp=stamp
-                    mag_msg.header.frame_id="base_link"
+                    mag_msg.header.stamp = stamp
+                    mag_msg.header.frame_id = "base_link"
                     mag_msg.magnetic_field.x = sensor_data[6]
                     mag_msg.magnetic_field.y = sensor_data[7]
                     mag_msg.magnetic_field.z = sensor_data[8]
@@ -127,4 +133,7 @@ if __name__ == "__main__":
                     mag_pub.publish(mag_msg)
 
             time.sleep(0.001)
-
+            
+        except Exception as e:
+            rospy.logerr(f"Loop error: {e}")
+            continue

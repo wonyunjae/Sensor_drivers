@@ -4,7 +4,9 @@
     <arg name="imu_type" default="a9" doc="model type [a9, b9, b6 ,d6]"/>
 
     <!-- imu 对应 python 文件 -->
-    <node pkg="handsfree_ros_imu" type="hfi_$(arg imu_type)_ros.py" name="imu" output="screen">
+    <node pkg="handsfree_ros_imu" type="hfi_a9_ros.py" name="imu" output="screen">
+        <param name="port" value="/dev/ttyUSB0"/>
+        <param name="baudrate" value="921600"/>
     </node>
 </launch>
 
