@@ -1,4 +1,6 @@
 ### MW-AHRS-x1 
+![image](https://github.com/user-attachments/assets/c41f6fbe-7794-4180-ba5c-3f22f7489bfc)
+
 ```jsx
 // 포트 권한 설정
 sudo chmod +x /dev/serial/by-id/usb-FTDI_FT230X_Basic_UART_DO01CZ0B-if00-port0 
