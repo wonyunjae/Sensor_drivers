@@ -76,8 +76,8 @@ if __name__ == "__main__":
         rospy.logerr("ttyUSB0를 찾을 수 없습니다. IMU 연결을 확인하세요.")
         exit()
 
-    imu_pub = rospy.Publisher("handsfree/imu", Imu, queue_size=10)
-    mag_pub = rospy.Publisher("handsfree/mag", MagneticField, queue_size=10)
+    imu_pub = rospy.Publisher("/imu_taobotics_hfi_a9", Imu, queue_size=10)
+    mag_pub = rospy.Publisher("/mag_taobotics_hfi_a9", MagneticField, queue_size=10)
     sensor_data = [0.0] * 11
 
     while not rospy.is_shutdown():
