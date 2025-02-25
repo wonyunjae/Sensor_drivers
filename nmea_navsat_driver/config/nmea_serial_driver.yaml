@@ -1,0 +1,7 @@
+nmea_navsat_driver:
+  ros__parameters:
+    port: "/dev/serial/by-id/usb-FTDI_USB_Serial_Converter_FTD4CZMY-if00-port0"
+    baud: 4800
+    frame_id: "gps"
+    time_ref_source: "gps"
+    useRMC: False
