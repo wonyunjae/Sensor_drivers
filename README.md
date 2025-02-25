@@ -13,12 +13,4 @@ Sensor_drivers/PC_AHRS_ROS2/stella_ahrs/src/listener.cpp :: 84번째 줄에 rate
 
 ### WTGAHRS3-232
 ![image](https://github.com/user-attachments/assets/0928f529-5a48-4989-b825-a2a8acadfd58)
-
-
-```jsx
-// 포트 권한 설정 (232-USB컨버터에 따라 이름이 달라질 수 있음)
-sudo chmod +x /dev/serial/by-id/usb-Prolific_Technology_Inc._USB-Serial_Controller-if00-port0
-colcon build --symlink-install
-
-Sensor_drivers/wit
-```
+현재 driver 확인 중, 
