@@ -60,7 +60,7 @@ def hex_to_ieee(length, buff):
 if __name__ == "__main__":
     rospy.init_node("imu")
 
-    port = rospy.get_param("~port", "/dev/ttyUSB0")
+    port = rospy.get_param("~port", "/dev/serial/by-id/usb-Silicon_Labs_HandsFree_IMU_USB_to_UART_Bridge_Controller_0001-if00-port0")
     baudrate = rospy.get_param("~baudrate", 921600)
 
     try:

@@ -1,7 +1,7 @@
 witmotion_imu:
-    port: ttyUSB0
-    baud_rate: 9600 # baud
-    polling_interval: 50 # ms
+    port: /dev/serial/by-id/usb-Prolific_Technology_Inc._USB-Serial_Controller-if00-port0
+    baud_rate: 115200 # baud
+    polling_interval: 10 # ms
     timeout_ms: 150 # ms
     restart_service_name: /restart_imu
     imu_publisher:

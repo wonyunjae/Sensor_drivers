@@ -3,8 +3,8 @@
 ##  - port + baudrate information
 ##  - nothing: the driver scans for devices and selects the first found.
 # device_id: '077007EF' # uppercase hex string
-# port: '/dev/ttyUSB0'
-# baudrate: 921600 # non necessary for some devices
+port: '/dev/serial/by-id/usb-Xsens_MTi-30_AHRS_0360095B-if01-port0'
+baudrate: 921600 # non necessary for some devices
 
 ## Log file (optional), placed in ~/.ros/ otherwise use absolute path
 # log_file: log.mtb
