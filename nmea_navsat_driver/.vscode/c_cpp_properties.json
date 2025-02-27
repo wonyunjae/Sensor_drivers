@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/wonseo/traxxas_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/wonseo/traxxas_ws/src/Sensor_drivers/velodyne/velodyne_driver/include/**",
+        "/home/wonseo/traxxas_ws/src/Sensor_drivers/velodyne/velodyne_laserscan/include/**",
+        "/home/wonseo/traxxas_ws/src/Sensor_drivers/velodyne/velodyne_pcl/include/**",
+        "/home/wonseo/traxxas_ws/src/Sensor_drivers/velodyne/velodyne_pointcloud/include/**",
+        "/home/wonseo/traxxas_ws/src/Sensor_drivers/witmotion_ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

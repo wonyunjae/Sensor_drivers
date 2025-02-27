@@ -15,7 +15,7 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-catkin_install_python(PROGRAMS
+install(PROGRAMS
   scripts/hfi_a9_ros.py
   scripts/hfi_b9_ros.py
   scripts/hfi_b6_ros.py
