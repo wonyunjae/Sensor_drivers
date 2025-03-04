@@ -1,0 +1,6 @@
+Invoking command in '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2': /usr/bin/cmake /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2 -DCMAKE_INSTALL_PREFIX=/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2
+Invoked command in '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2' returned '0': /usr/bin/cmake /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2 -DCMAKE_INSTALL_PREFIX=/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2
+Invoking command in '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2': /usr/bin/cmake --build /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 -- -j8 -l8
+Invoked command in '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 -- -j8 -l8
+Invoking command in '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2': /usr/bin/cmake --install /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2
+Invoked command in '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2

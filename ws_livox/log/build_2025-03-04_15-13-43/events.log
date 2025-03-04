@@ -1,0 +1,925 @@
+[0.000000] (-) TimerEvent: {}
+[0.000302] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.000440] (livox_sdk2) JobQueued: {'identifier': 'livox_sdk2', 'dependencies': OrderedDict()}
+[0.000453] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.003599] (livox_sdk2) JobStarted: {'identifier': 'livox_sdk2'}
+[0.006141] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[0.006470] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2', '-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble', '-DCMAKE_INSTALL_PREFIX=/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2'], 'cwd': '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'wynz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/lib:/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib:/home/wynz/sensor_ws/install/livox_sdk2/lib:/home/wynz/sensor_ws/install/witmotion_ros/lib:/usr/local/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wynz'), ('OLDPWD', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1663'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3580'), ('COLCON_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install:/home/wynz/sensor_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wynz'), ('JOURNAL_STREAM', '8:14182'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', 'ROS2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wynz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/wynz/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/wynz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wynz-NUC11PHi7:@/tmp/.ICE-unix/1874,unix/wynz-NUC11PHi7:/tmp/.ICE-unix/1874'), ('INVOCATION_ID', '573990a28f5349b298ad9081aa355844'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '0'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2:/home/wynz/sensor_ws/install/witmotion_ros:/home/wynz/sensor_ws/install/stella_ahrs:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fbbaf923-914a-493a-812c-43d5df9c3d89'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/wynz/.ignition/fuel/models:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/wynz/sensor_ws/build/nmea_navsat_driver/src:/home/wynz/sensor_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2:/home/wynz/sensor_ws/install/witmotion_ros:/home/wynz/sensor_ws/install/stella_ahrs:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble')]), 'shell': False}
+[0.008916] (livox_sdk2) JobProgress: {'identifier': 'livox_sdk2', 'progress': 'cmake'}
+[0.009405] (livox_sdk2) Command: {'cmd': ['/usr/bin/cmake', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2', '-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble', '-DCMAKE_INSTALL_PREFIX=/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2'], 'cwd': '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'wynz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/lib:/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib:/home/wynz/sensor_ws/install/livox_sdk2/lib:/home/wynz/sensor_ws/install/witmotion_ros/lib:/usr/local/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wynz'), ('OLDPWD', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1663'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3580'), ('COLCON_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install:/home/wynz/sensor_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wynz'), ('JOURNAL_STREAM', '8:14182'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', 'ROS2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wynz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/wynz/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/wynz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wynz-NUC11PHi7:@/tmp/.ICE-unix/1874,unix/wynz-NUC11PHi7:/tmp/.ICE-unix/1874'), ('INVOCATION_ID', '573990a28f5349b298ad9081aa355844'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '0'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2:/home/wynz/sensor_ws/install/witmotion_ros:/home/wynz/sensor_ws/install/stella_ahrs:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fbbaf923-914a-493a-812c-43d5df9c3d89'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/wynz/.ignition/fuel/models:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/wynz/sensor_ws/build/nmea_navsat_driver/src:/home/wynz/sensor_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2:/home/wynz/sensor_ws/install/witmotion_ros:/home/wynz/sensor_ws/install/stella_ahrs')]), 'shell': False}
+[0.044068] (livox_ros_driver2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.047883] (livox_sdk2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.081131] (livox_ros_driver2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.086301] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.087494] (livox_sdk2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.092778] (livox_sdk2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099863] (-) TimerEvent: {}
+[0.132053] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.137153] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.137385] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.137676] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.138256] (livox_sdk2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.140260] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.143977] (livox_sdk2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.144170] (livox_sdk2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.144633] (livox_sdk2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.146891] (livox_sdk2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.193663] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.198840] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.199015] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.199317] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.199891] (livox_ros_driver2) StdoutLine: {'line': b'-- livox_ros_driver2 version: 1.2.4\n'}
+[0.199939] (-) TimerEvent: {}
+[0.200446] (livox_sdk2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.200527] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.206301] (livox_sdk2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.206441] (livox_sdk2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.206828] (livox_sdk2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.207258] (livox_sdk2) StdoutLine: {'line': b'-- main project dir: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2\n'}
+[0.208150] (livox_sdk2) StdoutLine: {'line': b'-- main project dir: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples\n'}
+[0.209556] (livox_sdk2) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.222486] (livox_sdk2) StdoutLine: {'line': b'-- Generating done\n'}
+[0.223324] (livox_sdk2) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[0.223411] (livox_sdk2) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[0.223460] (livox_sdk2) StderrLine: {'line': b'\n'}
+[0.223495] (livox_sdk2) StderrLine: {'line': b'    HUMBLE_ROS\n'}
+[0.223529] (livox_sdk2) StderrLine: {'line': b'    ROS_EDITION\n'}
+[0.223561] (livox_sdk2) StderrLine: {'line': b'\n'}
+[0.223592] (livox_sdk2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.225617] (livox_sdk2) StdoutLine: {'line': b'-- Build files have been written to: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2\n'}
+[0.228212] (livox_sdk2) CommandEnded: {'returncode': 0}
+[0.228640] (livox_sdk2) JobProgress: {'identifier': 'livox_sdk2', 'progress': 'build'}
+[0.229325] (livox_sdk2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2', '--', '-j8', '-l8'], 'cwd': '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'wynz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/lib:/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib:/home/wynz/sensor_ws/install/livox_sdk2/lib:/home/wynz/sensor_ws/install/witmotion_ros/lib:/usr/local/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wynz'), ('OLDPWD', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1663'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3580'), ('COLCON_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install:/home/wynz/sensor_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wynz'), ('JOURNAL_STREAM', '8:14182'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', 'ROS2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wynz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/wynz/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/wynz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wynz-NUC11PHi7:@/tmp/.ICE-unix/1874,unix/wynz-NUC11PHi7:/tmp/.ICE-unix/1874'), ('INVOCATION_ID', '573990a28f5349b298ad9081aa355844'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '0'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2:/home/wynz/sensor_ws/install/witmotion_ros:/home/wynz/sensor_ws/install/stella_ahrs:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fbbaf923-914a-493a-812c-43d5df9c3d89'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/wynz/.ignition/fuel/models:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/wynz/sensor_ws/build/nmea_navsat_driver/src:/home/wynz/sensor_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2:/home/wynz/sensor_ws/install/witmotion_ros:/home/wynz/sensor_ws/install/stella_ahrs')]), 'shell': False}
+[0.266605] (livox_sdk2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/device_manager.cpp.o\x1b[0m\n'}
+[0.266948] (livox_sdk2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/__/3rdparty/FastCRC/FastCRCsw.cpp.o\x1b[0m\n'}
+[0.267078] (livox_sdk2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/livox_lidar_sdk.cpp.o\x1b[0m\n'}
+[0.267137] (livox_sdk2) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/__/3rdparty/FastCRC/FastCRCsw.cpp.o\x1b[0m\n'}
+[0.267191] (livox_sdk2) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/device_manager.cpp.o\x1b[0m\n'}
+[0.267255] (livox_sdk2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/params_check.cpp.o\x1b[0m\n'}
+[0.267305] (livox_sdk2) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/parse_cfg_file.cpp.o\x1b[0m\n'}
+[0.267894] (livox_sdk2) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/livox_lidar_sdk.cpp.o\x1b[0m\n'}
+[0.302266] (-) TimerEvent: {}
+[0.310351] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.391365] (livox_sdk2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade_manager.cpp.o\x1b[0m\n'}
+[0.402371] (-) TimerEvent: {}
+[0.439924] (livox_sdk2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/params_check.cpp.o\x1b[0m\n'}
+[0.502483] (-) TimerEvent: {}
+[0.522308] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.537334] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.602602] (-) TimerEvent: {}
+[0.618820] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.702716] (-) TimerEvent: {}
+[0.778366] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.780963] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.802825] (-) TimerEvent: {}
+[0.903183] (-) TimerEvent: {}
+[0.916432] (livox_ros_driver2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.962771] (livox_ros_driver2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.964614] (livox_sdk2) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/io_loop.cpp.o\x1b[0m\n'}
+[1.003310] (-) TimerEvent: {}
+[1.014765] (livox_ros_driver2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.023250] (livox_ros_driver2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.103425] (-) TimerEvent: {}
+[1.187209] (livox_ros_driver2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.187470] (livox_ros_driver2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.203532] (-) TimerEvent: {}
+[1.307285] (-) TimerEvent: {}
+[1.358451] (livox_ros_driver2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.359609] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.407400] (-) TimerEvent: {}
+[1.507741] (-) TimerEvent: {}
+[1.608074] (-) TimerEvent: {}
+[1.608357] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.641339] (livox_ros_driver2) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.708191] (-) TimerEvent: {}
+[1.722592] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.722823] (livox_ros_driver2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.799618] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.809276] (-) TimerEvent: {}
+[1.832959] (livox_ros_driver2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.909388] (-) TimerEvent: {}
+[1.934534] (livox_ros_driver2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.934758] (livox_ros_driver2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.009498] (-) TimerEvent: {}
+[2.109834] (-) TimerEvent: {}
+[2.213280] (-) TimerEvent: {}
+[2.313629] (-) TimerEvent: {}
+[2.413997] (-) TimerEvent: {}
+[2.514338] (-) TimerEvent: {}
+[2.614681] (-) TimerEvent: {}
+[2.715028] (-) TimerEvent: {}
+[2.815364] (-) TimerEvent: {}
+[2.915706] (-) TimerEvent: {}
+[3.016047] (-) TimerEvent: {}
+[3.117284] (-) TimerEvent: {}
+[3.171549] (livox_sdk2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/thread_base.cpp.o\x1b[0m\n'}
+[3.219279] (-) TimerEvent: {}
+[3.319599] (-) TimerEvent: {}
+[3.339790] (livox_sdk2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/parse_cfg_file.cpp.o\x1b[0m\n'}
+[3.419715] (-) TimerEvent: {}
+[3.449664] (livox_sdk2) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/io_thread.cpp.o\x1b[0m\n'}
+[3.506304] (livox_sdk2) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/logging.cpp.o\x1b[0m\n'}
+[3.509905] (livox_sdk2) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/network/unix/network_util.cpp.o\x1b[0m\n'}
+[3.519822] (-) TimerEvent: {}
+[3.620161] (-) TimerEvent: {}
+[3.636575] (livox_sdk2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade_manager.cpp.o\x1b[0m\n'}
+[3.715196] (livox_sdk2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_base.cpp.o\x1b[0m\n'}
+[3.720350] (-) TimerEvent: {}
+[3.798351] (livox_sdk2) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_epoll.cpp.o\x1b[0m\n'}
+[3.820464] (-) TimerEvent: {}
+[3.924451] (-) TimerEvent: {}
+[3.983546] (livox_sdk2) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_poll.cpp.o\x1b[0m\n'}
+[4.024579] (-) TimerEvent: {}
+[4.097572] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[4.124681] (-) TimerEvent: {}
+[4.131813] (livox_ros_driver2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[4.146394] (livox_sdk2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_select.cpp.o\x1b[0m\n'}
+[4.156769] (livox_sdk2) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_kqueue.cpp.o\x1b[0m\n'}
+[4.169648] (livox_sdk2) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/io_loop.cpp.o\x1b[0m\n'}
+[4.194607] (livox_ros_driver2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[4.195698] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.200820] (livox_sdk2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/wake_up/unix/wake_up_pipe.cpp.o\x1b[0m\n'}
+[4.227289] (-) TimerEvent: {}
+[4.253255] (livox_sdk2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/thread_base.cpp.o\x1b[0m\n'}
+[4.327400] (-) TimerEvent: {}
+[4.330320] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.371865] (livox_sdk2) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/io_thread.cpp.o\x1b[0m\n'}
+[4.427512] (-) TimerEvent: {}
+[4.430323] (livox_sdk2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/comm_port.cpp.o\x1b[0m\n'}
+[4.527625] (-) TimerEvent: {}
+[4.601272] (livox_sdk2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/logging.cpp.o\x1b[0m\n'}
+[4.624358] (livox_ros_driver2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.627737] (-) TimerEvent: {}
+[4.632871] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.644346] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.675458] (livox_sdk2) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/sdk_protocol.cpp.o\x1b[0m\n'}
+[4.681074] (livox_sdk2) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/generate_seq.cpp.o\x1b[0m\n'}
+[4.685416] (livox_sdk2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade/firmware.cpp.o\x1b[0m\n'}
+[4.727852] (-) TimerEvent: {}
+[4.733200] (livox_sdk2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/network/unix/network_util.cpp.o\x1b[0m\n'}
+[4.831276] (-) TimerEvent: {}
+[4.891047] (livox_sdk2) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade/livox_lidar_upgrader.cpp.o\x1b[0m\n'}
+[4.911566] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[4.922773] (livox_sdk2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/logger_manager.cpp.o\x1b[0m\n'}
+[4.931389] (-) TimerEvent: {}
+[4.954343] (livox_sdk2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_base.cpp.o\x1b[0m\n'}
+[4.957586] (livox_sdk2) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/logger_handler.cpp.o\x1b[0m\n'}
+[5.031499] (-) TimerEvent: {}
+[5.131849] (-) TimerEvent: {}
+[5.232234] (-) TimerEvent: {}
+[5.238851] (livox_sdk2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/file_manager.cpp.o\x1b[0m\n'}
+[5.332281] (-) TimerEvent: {}
+[5.339599] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.432394] (-) TimerEvent: {}
+[5.532731] (-) TimerEvent: {}
+[5.633072] (-) TimerEvent: {}
+[5.733409] (-) TimerEvent: {}
+[5.796456] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[5.797883] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[5.799141] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[5.800363] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[5.801568] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[5.802772] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[5.803610] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[5.804108] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[5.805534] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[5.806824] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[5.808132] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[5.809337] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[5.812244] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[5.812415] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[5.813585] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[5.814983] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[5.816310] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[5.817543] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[5.818963] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[5.820049] (livox_sdk2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/data_handler/data_handler.cpp.o\x1b[0m\n'}
+[5.820232] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[5.821312] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[5.824248] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[5.824407] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[5.824484] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[5.825438] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[5.833517] (-) TimerEvent: {}
+[5.880375] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[5.881766] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'apr-1'\n"}
+[5.885506] (livox_ros_driver2) StdoutLine: {'line': b"--   No package 'apr-1' found\n"}
+[5.933614] (-) TimerEvent: {}
+[6.033922] (-) TimerEvent: {}
+[6.137267] (-) TimerEvent: {}
+[6.184692] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.237373] (-) TimerEvent: {}
+[6.337694] (-) TimerEvent: {}
+[6.441278] (-) TimerEvent: {}
+[6.541600] (-) TimerEvent: {}
+[6.554349] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.641724] (-) TimerEvent: {}
+[6.687609] (livox_sdk2) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/command_impl.cpp.o\x1b[0m\n'}
+[6.741822] (-) TimerEvent: {}
+[6.842255] (-) TimerEvent: {}
+[6.867115] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.913001] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[6.913251] (livox_ros_driver2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.942352] (-) TimerEvent: {}
+[6.964690] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[6.965674] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.968250] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.968398] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.995110] (livox_sdk2) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/general_command_handler.cpp.o\x1b[0m\n'}
+[7.004139] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.042468] (-) TimerEvent: {}
+[7.142801] (-) TimerEvent: {}
+[7.152328] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.189074] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.195659] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.196863] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/3rdparty;/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src\n'}
+[7.199389] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.204721] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[7.204956] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[7.205045] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.206719] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.208156] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.214331] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.214557] (livox_ros_driver2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.215887] (livox_ros_driver2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.218784] (livox_ros_driver2) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.242920] (-) TimerEvent: {}
+[7.306302] (livox_ros_driver2) StdoutLine: {'line': b'-- Generating done\n'}
+[7.333367] (livox_ros_driver2) StdoutLine: {'line': b'-- Build files have been written to: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2\n'}
+[7.343044] (-) TimerEvent: {}
+[7.423334] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[7.423944] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'build'}
+[7.423981] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2', '--', '-j8', '-l8'], 'cwd': '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'wynz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/lib:/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib:/home/wynz/sensor_ws/install/livox_sdk2/lib:/home/wynz/sensor_ws/install/witmotion_ros/lib:/usr/local/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wynz'), ('OLDPWD', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1663'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3580'), ('COLCON_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install:/home/wynz/sensor_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wynz'), ('JOURNAL_STREAM', '8:14182'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', 'ROS2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wynz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/wynz/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/wynz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wynz-NUC11PHi7:@/tmp/.ICE-unix/1874,unix/wynz-NUC11PHi7:/tmp/.ICE-unix/1874'), ('INVOCATION_ID', '573990a28f5349b298ad9081aa355844'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '0'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2:/home/wynz/sensor_ws/install/witmotion_ros:/home/wynz/sensor_ws/install/stella_ahrs:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fbbaf923-914a-493a-812c-43d5df9c3d89'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/wynz/.ignition/fuel/models:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/wynz/sensor_ws/build/nmea_navsat_driver/src:/home/wynz/sensor_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2:/home/wynz/sensor_ws/install/witmotion_ros:/home/wynz/sensor_ws/install/stella_ahrs:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble')]), 'shell': False}
+[7.443152] (-) TimerEvent: {}
+[7.530415] (livox_ros_driver2) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.538493] (livox_ros_driver2) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.546272] (-) TimerEvent: {}
+[7.551388] (livox_ros_driver2) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o\x1b[0m\n'}
+[7.567256] (livox_ros_driver2) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_livox_ros_driver2\n'}
+[7.646392] (-) TimerEvent: {}
+[7.668449] (livox_sdk2) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_epoll.cpp.o\x1b[0m\n'}
+[7.749272] (-) TimerEvent: {}
+[7.849580] (-) TimerEvent: {}
+[7.949886] (-) TimerEvent: {}
+[8.014430] (livox_ros_driver2) StdoutLine: {'line': b'running egg_info\n'}
+[8.015726] (livox_ros_driver2) StdoutLine: {'line': b'creating livox_ros_driver2.egg-info\n'}
+[8.016194] (livox_ros_driver2) StdoutLine: {'line': b'writing livox_ros_driver2.egg-info/PKG-INFO\n'}
+[8.016575] (livox_ros_driver2) StdoutLine: {'line': b'writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt\n'}
+[8.016898] (livox_ros_driver2) StdoutLine: {'line': b'writing top-level names to livox_ros_driver2.egg-info/top_level.txt\n'}
+[8.017302] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[8.019864] (livox_ros_driver2) StdoutLine: {'line': b"reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[8.020740] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[8.049990] (-) TimerEvent: {}
+[8.082517] (livox_ros_driver2) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_livox_ros_driver2_egg\n'}
+[8.150092] (-) TimerEvent: {}
+[8.214823] (livox_sdk2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_poll.cpp.o\x1b[0m\n'}
+[8.250195] (-) TimerEvent: {}
+[8.350639] (-) TimerEvent: {}
+[8.411979] (livox_ros_driver2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o\x1b[0m\n'}
+[8.434145] (livox_ros_driver2) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o\x1b[0m\n'}
+[8.450755] (-) TimerEvent: {}
+[8.451985] (livox_ros_driver2) StdoutLine: {'line': b'[  8%] Built target livox_interfaces2__cpp\n'}
+[8.470883] (livox_ros_driver2) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.482395] (livox_ros_driver2) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.482770] (livox_sdk2) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/hap_command_handler.cpp.o\x1b[0m\n'}
+[8.486109] (livox_ros_driver2) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.534273] (livox_ros_driver2) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so\x1b[0m\n'}
+[8.550854] (-) TimerEvent: {}
+[8.620518] (livox_ros_driver2) StdoutLine: {'line': b'[ 15%] Built target livox_interfaces2__rosidl_generator_c\n'}
+[8.647263] (livox_ros_driver2) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.650482] (livox_ros_driver2) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.650921] (-) TimerEvent: {}
+[8.662039] (livox_ros_driver2) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.717412] (livox_sdk2) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_select.cpp.o\x1b[0m\n'}
+[8.751030] (-) TimerEvent: {}
+[8.851337] (-) TimerEvent: {}
+[8.928608] (livox_sdk2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_kqueue.cpp.o\x1b[0m\n'}
+[8.951441] (-) TimerEvent: {}
+[9.051772] (-) TimerEvent: {}
+[9.152092] (-) TimerEvent: {}
+[9.171249] (livox_sdk2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/wake_up/unix/wake_up_pipe.cpp.o\x1b[0m\n'}
+[9.172700] (livox_sdk2) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/comm_port.cpp.o\x1b[0m\n'}
+[9.255271] (-) TimerEvent: {}
+[9.268319] (livox_sdk2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/mid360_command_handler.cpp.o\x1b[0m\n'}
+[9.355373] (-) TimerEvent: {}
+[9.364815] (livox_ros_driver2) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o\x1b[0m\n'}
+[9.373272] (livox_ros_driver2) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[9.412284] (livox_sdk2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/sdk_protocol.cpp.o\x1b[0m\n'}
+[9.444831] (livox_ros_driver2) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o\x1b[0m\n'}
+[9.455490] (-) TimerEvent: {}
+[9.499820] (livox_sdk2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/generate_seq.cpp.o\x1b[0m\n'}
+[9.555593] (-) TimerEvent: {}
+[9.579985] (livox_ros_driver2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o\x1b[0m\n'}
+[9.625272] (livox_sdk2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/build_request.cpp.o\x1b[0m\n'}
+[9.655703] (-) TimerEvent: {}
+[9.680440] (livox_ros_driver2) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o\x1b[0m\n'}
+[9.697003] (livox_sdk2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/parse_lidar_state_info.cpp.o\x1b[0m\n'}
+[9.755820] (-) TimerEvent: {}
+[9.756157] (livox_ros_driver2) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[9.783437] (livox_sdk2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade/firmware.cpp.o\x1b[0m\n'}
+[9.830576] (livox_ros_driver2) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.831574] (livox_ros_driver2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o\x1b[0m\n'}
+[9.858285] (-) TimerEvent: {}
+[9.884549] (livox_ros_driver2) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o\x1b[0m\n'}
+[9.903233] (livox_ros_driver2) StdoutLine: {'line': b'[ 36%] Built target livox_interfaces2__rosidl_typesupport_c\n'}
+[9.931197] (livox_ros_driver2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o\x1b[0m\n'}
+[9.949321] (livox_sdk2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/debug_point_cloud_handler/debug_point_cloud_manager.cpp.o\x1b[0m\n'}
+[9.958403] (-) TimerEvent: {}
+[9.968628] (livox_ros_driver2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[10.016408] (livox_ros_driver2) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.052308] (livox_ros_driver2) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[10.064287] (-) TimerEvent: {}
+[10.088461] (livox_ros_driver2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o\x1b[0m\n'}
+[10.102303] (livox_ros_driver2) StdoutLine: {'line': b'[ 45%] Built target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[10.164404] (-) TimerEvent: {}
+[10.264744] (-) TimerEvent: {}
+[10.365103] (-) TimerEvent: {}
+[10.406336] (livox_ros_driver2) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.442336] (livox_ros_driver2) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.465227] (-) TimerEvent: {}
+[10.480935] (livox_sdk2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade/livox_lidar_upgrader.cpp.o\x1b[0m\n'}
+[10.532382] (livox_sdk2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19\x1b[m\x1b[K,\n'}
+[10.532630] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22\x1b[m\x1b[K,\n'}
+[10.532712] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22\x1b[m\x1b[K,\n'}
+[10.532769] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26\x1b[m\x1b[K,\n'}
+[10.532827] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38\x1b[m\x1b[K,\n'}
+[10.532886] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2\x1b[m\x1b[K:\n'}
+[10.532944] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown option after \xe2\x80\x98\x1b[01m\x1b[K#pragma GCC diagnostic\x1b[m\x1b[K\xe2\x80\x99 kind [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas\x07-Wpragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.533022] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;35m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[10.533079] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.533134] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.533196] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[10.533340] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.533404] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.533463] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[10.533519] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.533576] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.533634] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[10.533691] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.543368] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdid you mean \xe2\x80\x98\x1b[01m\x1b[K-Warray-bounds\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.543573] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;36m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[10.543648] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.543710] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.543770] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[10.543829] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.543889] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.543962] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[10.544022] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.544079] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.544141] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[10.544200] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.549862] (livox_ros_driver2) StdoutLine: {'line': b'[ 49%] Built target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[10.565331] (-) TimerEvent: {}
+[10.579987] (livox_ros_driver2) StdoutLine: {'line': b'[ 49%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[10.597324] (livox_ros_driver2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o\x1b[0m\n'}
+[10.597581] (livox_ros_driver2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o\x1b[0m\n'}
+[10.601384] (livox_ros_driver2) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o\x1b[0m\n'}
+[10.603984] (livox_ros_driver2) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o\x1b[0m\n'}
+[10.665444] (-) TimerEvent: {}
+[10.723132] (livox_ros_driver2) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.765635] (-) TimerEvent: {}
+[10.786370] (livox_ros_driver2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o\x1b[0m\n'}
+[10.869282] (-) TimerEvent: {}
+[10.910108] (livox_ros_driver2) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.930856] (livox_ros_driver2) StdoutLine: {'line': b'[ 61%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[10.969392] (-) TimerEvent: {}
+[10.971846] (livox_ros_driver2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o\x1b[0m\n'}
+[11.069502] (-) TimerEvent: {}
+[11.088342] (livox_sdk2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19\x1b[m\x1b[K,\n'}
+[11.092469] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22\x1b[m\x1b[K,\n'}
+[11.092548] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22\x1b[m\x1b[K,\n'}
+[11.092608] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26\x1b[m\x1b[K,\n'}
+[11.092668] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38\x1b[m\x1b[K,\n'}
+[11.092725] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37\x1b[m\x1b[K:\n'}
+[11.092783] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown option after \xe2\x80\x98\x1b[01m\x1b[K#pragma GCC diagnostic\x1b[m\x1b[K\xe2\x80\x99 kind [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas\x07-Wpragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.092851] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;35m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[11.092909] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.092965] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.093023] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[11.093079] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.093138] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.093197] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[11.093261] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.093317] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.093373] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[11.093429] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.102360] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdid you mean \xe2\x80\x98\x1b[01m\x1b[K-Warray-bounds\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.102547] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;36m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[11.102623] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.102690] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.102757] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[11.102817] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.102884] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.102950] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[11.103010] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.103066] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.103129] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[11.103189] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.167283] (livox_ros_driver2) StdoutLine: {'line': b'[ 63%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[11.169604] (-) TimerEvent: {}
+[11.211105] (livox_ros_driver2) StdoutLine: {'line': b'[ 63%] Built target livox_interfaces2\n'}
+[11.269720] (-) TimerEvent: {}
+[11.274335] (livox_ros_driver2) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.369825] (-) TimerEvent: {}
+[11.470162] (-) TimerEvent: {}
+[11.570514] (-) TimerEvent: {}
+[11.674281] (-) TimerEvent: {}
+[11.774621] (-) TimerEvent: {}
+[11.821403] (livox_sdk2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19\x1b[m\x1b[K,\n'}
+[11.821593] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22\x1b[m\x1b[K,\n'}
+[11.821660] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22\x1b[m\x1b[K,\n'}
+[11.821711] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26\x1b[m\x1b[K,\n'}
+[11.821762] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38\x1b[m\x1b[K,\n'}
+[11.821813] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37\x1b[m\x1b[K:\n'}
+[11.821864] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown option after \xe2\x80\x98\x1b[01m\x1b[K#pragma GCC diagnostic\x1b[m\x1b[K\xe2\x80\x99 kind [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas\x07-Wpragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.821920] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;35m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[11.821975] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.822026] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.822080] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[11.822133] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.822184] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.822250] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[11.822305] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.822357] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.822411] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[11.822464] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.828335] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdid you mean \xe2\x80\x98\x1b[01m\x1b[K-Warray-bounds\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.828607] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;36m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[11.828684] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.828750] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.828818] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[11.828882] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.828945] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.829008] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[11.829070] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.829129] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.829189] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[11.829262] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.881271] (-) TimerEvent: {}
+[11.981593] (-) TimerEvent: {}
+[12.084280] (-) TimerEvent: {}
+[12.087046] (livox_sdk2) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/logger_manager.cpp.o\x1b[0m\n'}
+[12.184384] (-) TimerEvent: {}
+[12.284727] (-) TimerEvent: {}
+[12.387296] (-) TimerEvent: {}
+[12.411012] (livox_ros_driver2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o\x1b[0m\n'}
+[12.436008] (livox_ros_driver2) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o\x1b[0m\n'}
+[12.487395] (-) TimerEvent: {}
+[12.590271] (-) TimerEvent: {}
+[12.690578] (-) TimerEvent: {}
+[12.785843] (livox_sdk2) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/logger_handler.cpp.o\x1b[0m\n'}
+[12.790685] (-) TimerEvent: {}
+[12.855055] (livox_ros_driver2) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o\x1b[0m\n'}
+[12.890789] (-) TimerEvent: {}
+[12.993267] (-) TimerEvent: {}
+[13.093695] (-) TimerEvent: {}
+[13.160704] (livox_ros_driver2) StdoutLine: {'line': b'[ 70%] Built target livox_interfaces2__py\n'}
+[13.179252] (livox_ros_driver2) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o\x1b[0m\n'}
+[13.197292] (-) TimerEvent: {}
+[13.258940] (livox_ros_driver2) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o\x1b[0m\n'}
+[13.297407] (-) TimerEvent: {}
+[13.397764] (-) TimerEvent: {}
+[13.501281] (-) TimerEvent: {}
+[13.605293] (-) TimerEvent: {}
+[13.631340] (livox_ros_driver2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o\x1b[0m\n'}
+[13.708280] (-) TimerEvent: {}
+[13.776353] (livox_ros_driver2) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o\x1b[0m\n'}
+[13.808410] (-) TimerEvent: {}
+[13.849959] (livox_sdk2) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/debug_point_cloud_handler/debug_point_cloud_handler.cpp.o\x1b[0m\n'}
+[13.908518] (-) TimerEvent: {}
+[14.008846] (-) TimerEvent: {}
+[14.109180] (-) TimerEvent: {}
+[14.212301] (-) TimerEvent: {}
+[14.312635] (-) TimerEvent: {}
+[14.416291] (-) TimerEvent: {}
+[14.516666] (-) TimerEvent: {}
+[14.617024] (-) TimerEvent: {}
+[14.717405] (-) TimerEvent: {}
+[14.725278] (livox_ros_driver2) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable livox_ros_driver2_node\x1b[0m\n'}
+[14.817524] (-) TimerEvent: {}
+[14.826142] (livox_ros_driver2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o\x1b[0m\n'}
+[14.855980] (livox_sdk2) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/file_manager.cpp.o\x1b[0m\n'}
+[14.917660] (-) TimerEvent: {}
+[15.018063] (-) TimerEvent: {}
+[15.118423] (-) TimerEvent: {}
+[15.125744] (livox_ros_driver2) StdoutLine: {'line': b'[ 80%] Built target livox_ros_driver2_node\n'}
+[15.173388] (livox_ros_driver2) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o\x1b[0m\n'}
+[15.224289] (-) TimerEvent: {}
+[15.324654] (-) TimerEvent: {}
+[15.424197] (livox_ros_driver2) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o\x1b[0m\n'}
+[15.424710] (-) TimerEvent: {}
+[15.473741] (livox_sdk2) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/command_impl.cpp.o\x1b[0m\n'}
+[15.473951] (livox_sdk2) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/data_handler/data_handler.cpp.o\x1b[0m\n'}
+[15.524839] (-) TimerEvent: {}
+[15.625276] (-) TimerEvent: {}
+[15.661284] (livox_ros_driver2) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so\x1b[0m\n'}
+[15.710308] (livox_sdk2) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/general_command_handler.cpp.o\x1b[0m\n'}
+[15.725380] (-) TimerEvent: {}
+[15.725707] (livox_ros_driver2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o\x1b[0m\n'}
+[15.756605] (livox_ros_driver2) StdoutLine: {'line': b'[ 87%] Built target livox_interfaces2__rosidl_generator_py\n'}
+[15.808923] (livox_ros_driver2) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.823316] (livox_ros_driver2) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.825480] (-) TimerEvent: {}
+[15.925815] (-) TimerEvent: {}
+[15.986938] (livox_ros_driver2) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.025929] (-) TimerEvent: {}
+[16.064681] (livox_ros_driver2) StdoutLine: {'line': b'[ 92%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.122145] (livox_ros_driver2) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.126333] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[16.126573] (-) TimerEvent: {}
+[16.231969] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[16.232180] (-) TimerEvent: {}
+[16.332444] (-) TimerEvent: {}
+[16.366284] (livox_sdk2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/hap_command_handler.cpp.o\x1b[0m\n'}
+[16.426337] (livox_ros_driver2) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.432551] (-) TimerEvent: {}
+[16.515027] (livox_ros_driver2) StdoutLine: {'line': b'[ 98%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[16.532663] (-) TimerEvent: {}
+[16.633014] (-) TimerEvent: {}
+[16.737279] (-) TimerEvent: {}
+[16.837622] (-) TimerEvent: {}
+[16.937961] (-) TimerEvent: {}
+[17.038279] (-) TimerEvent: {}
+[17.138760] (-) TimerEvent: {}
+[17.239188] (-) TimerEvent: {}
+[17.339537] (-) TimerEvent: {}
+[17.440475] (-) TimerEvent: {}
+[17.543456] (-) TimerEvent: {}
+[17.643918] (-) TimerEvent: {}
+[17.744271] (-) TimerEvent: {}
+[17.844733] (-) TimerEvent: {}
+[17.945072] (-) TimerEvent: {}
+[18.048286] (-) TimerEvent: {}
+[18.151288] (-) TimerEvent: {}
+[18.251656] (-) TimerEvent: {}
+[18.352019] (-) TimerEvent: {}
+[18.396359] (livox_sdk2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19\x1b[m\x1b[K,\n'}
+[18.396561] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22\x1b[m\x1b[K,\n'}
+[18.396645] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22\x1b[m\x1b[K,\n'}
+[18.396717] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26\x1b[m\x1b[K,\n'}
+[18.396780] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38\x1b[m\x1b[K,\n'}
+[18.396835] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37\x1b[m\x1b[K:\n'}
+[18.396892] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown option after \xe2\x80\x98\x1b[01m\x1b[K#pragma GCC diagnostic\x1b[m\x1b[K\xe2\x80\x99 kind [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas\x07-Wpragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.396958] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;35m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[18.397018] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[18.397079] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.397143] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[18.397201] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.397268] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.397329] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[18.397384] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.397437] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.397493] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[18.397548] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.404983] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdid you mean \xe2\x80\x98\x1b[01m\x1b[K-Warray-bounds\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[18.405186] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;36m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[18.405266] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[18.405321] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.405373] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[18.405426] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.405478] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.405531] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[18.405584] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.405635] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.405686] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[18.405742] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.453280] (-) TimerEvent: {}
+[18.553617] (-) TimerEvent: {}
+[18.652575] (livox_sdk2) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/mid360_command_handler.cpp.o\x1b[0m\n'}
+[18.653695] (-) TimerEvent: {}
+[18.754001] (-) TimerEvent: {}
+[18.854354] (-) TimerEvent: {}
+[18.930757] (livox_sdk2) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX static library liblivox_lidar_sdk_static.a\x1b[0m\n'}
+[18.954474] (-) TimerEvent: {}
+[18.960524] (livox_sdk2) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/build_request.cpp.o\x1b[0m\n'}
+[19.054591] (-) TimerEvent: {}
+[19.154946] (-) TimerEvent: {}
+[19.204725] (livox_sdk2) StdoutLine: {'line': b'[ 79%] Built target livox_lidar_sdk_static\n'}
+[19.215182] (livox_sdk2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/parse_lidar_state_info.cpp.o\x1b[0m\n'}
+[19.255059] (-) TimerEvent: {}
+[19.355377] (-) TimerEvent: {}
+[19.460282] (-) TimerEvent: {}
+[19.560657] (-) TimerEvent: {}
+[19.591192] (livox_sdk2) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/debug_point_cloud_handler/debug_point_cloud_manager.cpp.o\x1b[0m\n'}
+[19.660769] (-) TimerEvent: {}
+[19.674552] (livox_sdk2) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object samples/livox_lidar_quick_start/CMakeFiles/livox_lidar_quick_start.dir/main.cpp.o\x1b[0m\n'}
+[19.729800] (livox_sdk2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19\x1b[m\x1b[K,\n'}
+[19.730072] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22\x1b[m\x1b[K,\n'}
+[19.730141] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22\x1b[m\x1b[K,\n'}
+[19.730195] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26\x1b[m\x1b[K,\n'}
+[19.730266] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38\x1b[m\x1b[K,\n'}
+[19.730324] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2\x1b[m\x1b[K:\n'}
+[19.730379] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown option after \xe2\x80\x98\x1b[01m\x1b[K#pragma GCC diagnostic\x1b[m\x1b[K\xe2\x80\x99 kind [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas\x07-Wpragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.730442] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;35m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[19.730497] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[19.730551] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.730607] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[19.730664] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.730721] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.730778] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[19.730833] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.730887] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.730941] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[19.730993] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.734416] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdid you mean \xe2\x80\x98\x1b[01m\x1b[K-Warray-bounds\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[19.734650] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;36m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[19.734722] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[19.734776] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.734838] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[19.734894] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.734949] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.735011] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[19.735069] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.735129] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.735187] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[19.735257] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.762276] (-) TimerEvent: {}
+[19.862619] (-) TimerEvent: {}
+[19.963107] (-) TimerEvent: {}
+[20.069281] (-) TimerEvent: {}
+[20.166530] (livox_sdk2) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable livox_lidar_quick_start\x1b[0m\n'}
+[20.169385] (-) TimerEvent: {}
+[20.269705] (-) TimerEvent: {}
+[20.370048] (-) TimerEvent: {}
+[20.443267] (livox_sdk2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19\x1b[m\x1b[K,\n'}
+[20.443483] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22\x1b[m\x1b[K,\n'}
+[20.443569] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22\x1b[m\x1b[K,\n'}
+[20.443633] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26\x1b[m\x1b[K,\n'}
+[20.443692] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38\x1b[m\x1b[K,\n'}
+[20.443759] (livox_sdk2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37\x1b[m\x1b[K:\n'}
+[20.443826] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown option after \xe2\x80\x98\x1b[01m\x1b[K#pragma GCC diagnostic\x1b[m\x1b[K\xe2\x80\x99 kind [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas\x07-Wpragmas\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.443890] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;35m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[20.443947] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[20.444006] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.444064] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[20.444124] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.444182] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.444256] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[20.444317] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.444376] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.444436] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[20.444495] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.451273] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdid you mean \xe2\x80\x98\x1b[01m\x1b[K-Warray-bounds\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[20.451487] (livox_sdk2) StderrLine: {'line': b'  542 | #define RAPIDJSON_PRAGMA(x) \x1b[01;36m\x1b[K_Pragma\x1b[m\x1b[K(RAPIDJSON_STRINGIFY(x))\n'}
+[20.451578] (livox_sdk2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[20.451645] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.451712] (livox_sdk2) StderrLine: {'line': b'  543 | #define RAPIDJSON_DIAG_PRAGMA(x) \x1b[01;36m\x1b[KRAPIDJSON_PRAGMA\x1b[m\x1b[K(GCC diagnostic x)\n'}
+[20.451774] (livox_sdk2) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.451834] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.451900] (livox_sdk2) StderrLine: {'line': b'  545 |   \x1b[01;36m\x1b[KRAPIDJSON_DIAG_PRAGMA\x1b[m\x1b[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))\n'}
+[20.451962] (livox_sdk2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.452020] (livox_sdk2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.452080] (livox_sdk2) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KRAPIDJSON_DIAG_OFF\x1b[m\x1b[K(array - bounds)  // some gcc versions generate wrong warnings\n'}
+[20.452139] (livox_sdk2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.470159] (-) TimerEvent: {}
+[20.529335] (livox_sdk2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object samples/multi_lidars_upgrade/CMakeFiles/multi_lidars_upgrade.dir/main.cpp.o\x1b[0m\n'}
+[20.570274] (-) TimerEvent: {}
+[20.670720] (-) TimerEvent: {}
+[20.771184] (-) TimerEvent: {}
+[20.871673] (-) TimerEvent: {}
+[20.972043] (-) TimerEvent: {}
+[21.072492] (-) TimerEvent: {}
+[21.174427] (-) TimerEvent: {}
+[21.260244] (livox_sdk2) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable multi_lidars_upgrade\x1b[0m\n'}
+[21.276278] (-) TimerEvent: {}
+[21.376634] (-) TimerEvent: {}
+[21.406219] (livox_sdk2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object samples/logger/CMakeFiles/logger.dir/main.cpp.o\x1b[0m\n'}
+[21.476750] (-) TimerEvent: {}
+[21.517405] (livox_sdk2) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/debug_point_cloud_handler/debug_point_cloud_handler.cpp.o\x1b[0m\n'}
+[21.576862] (-) TimerEvent: {}
+[21.623327] (livox_sdk2) StdoutLine: {'line': b'[ 89%] Built target livox_lidar_quick_start\n'}
+[21.663602] (livox_sdk2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/main.cpp.o\x1b[0m\n'}
+[21.676976] (-) TimerEvent: {}
+[21.784277] (-) TimerEvent: {}
+[21.884629] (-) TimerEvent: {}
+[21.945598] (livox_sdk2) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable logger\x1b[0m\n'}
+[21.984748] (-) TimerEvent: {}
+[22.075512] (livox_sdk2) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable debug_point_cloud\x1b[0m\n'}
+[22.084858] (-) TimerEvent: {}
+[22.185194] (-) TimerEvent: {}
+[22.285550] (-) TimerEvent: {}
+[22.388456] (-) TimerEvent: {}
+[22.443875] (livox_sdk2) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object samples/lidar_cmd_observer/CMakeFiles/lidar_cmd_observer.dir/main.cpp.o\x1b[0m\n'}
+[22.488564] (-) TimerEvent: {}
+[22.493566] (livox_sdk2) StdoutLine: {'line': b'[ 93%] Built target multi_lidars_upgrade\n'}
+[22.548354] (livox_sdk2) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object samples/livox_lidar_rmc_time_sync/CMakeFiles/livox_lidar_rmc_time_sync.dir/main.cpp.o\x1b[0m\n'}
+[22.588691] (-) TimerEvent: {}
+[22.632279] (livox_sdk2) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object samples/livox_lidar_rmc_time_sync/CMakeFiles/livox_lidar_rmc_time_sync.dir/linux/synchro.cpp.o\x1b[0m\n'}
+[22.692290] (-) TimerEvent: {}
+[22.749344] (livox_sdk2) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable lidar_cmd_observer\x1b[0m\n'}
+[22.792424] (-) TimerEvent: {}
+[22.892930] (-) TimerEvent: {}
+[22.993304] (-) TimerEvent: {}
+[23.076743] (livox_sdk2) StdoutLine: {'line': b'[ 97%] Built target logger\n'}
+[23.093409] (-) TimerEvent: {}
+[23.151644] (livox_sdk2) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable livox_lidar_rmc_time_sync\x1b[0m\n'}
+[23.174359] (livox_sdk2) StdoutLine: {'line': b'[ 98%] Built target debug_point_cloud\n'}
+[23.193541] (-) TimerEvent: {}
+[23.293901] (-) TimerEvent: {}
+[23.394226] (-) TimerEvent: {}
+[23.494532] (-) TimerEvent: {}
+[23.534707] (livox_sdk2) StdoutLine: {'line': b'[ 98%] Built target lidar_cmd_observer\n'}
+[23.594641] (-) TimerEvent: {}
+[23.694942] (-) TimerEvent: {}
+[23.736067] (livox_sdk2) StdoutLine: {'line': b'[ 98%] Built target livox_lidar_rmc_time_sync\n'}
+[23.795123] (-) TimerEvent: {}
+[23.895464] (-) TimerEvent: {}
+[23.985171] (livox_ros_driver2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_ros_driver2.so\x1b[0m\n'}
+[23.995572] (-) TimerEvent: {}
+[24.095920] (-) TimerEvent: {}
+[24.196272] (-) TimerEvent: {}
+[24.236027] (livox_sdk2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liblivox_lidar_sdk_shared.so\x1b[0m\n'}
+[24.296483] (-) TimerEvent: {}
+[24.396896] (-) TimerEvent: {}
+[24.493884] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target livox_ros_driver2\n'}
+[24.496981] (-) TimerEvent: {}
+[24.502773] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[24.503282] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'install'}
+[24.509775] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2'], 'cwd': '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'wynz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/lib:/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib:/home/wynz/sensor_ws/install/livox_sdk2/lib:/home/wynz/sensor_ws/install/witmotion_ros/lib:/usr/local/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wynz'), ('OLDPWD', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1663'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3580'), ('COLCON_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install:/home/wynz/sensor_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wynz'), ('JOURNAL_STREAM', '8:14182'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', 'ROS2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wynz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/wynz/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/wynz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wynz-NUC11PHi7:@/tmp/.ICE-unix/1874,unix/wynz-NUC11PHi7:/tmp/.ICE-unix/1874'), ('INVOCATION_ID', '573990a28f5349b298ad9081aa355844'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '0'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2:/home/wynz/sensor_ws/install/witmotion_ros:/home/wynz/sensor_ws/install/stella_ahrs:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fbbaf923-914a-493a-812c-43d5df9c3d89'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/wynz/.ignition/fuel/models:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/wynz/sensor_ws/build/nmea_navsat_driver/src:/home/wynz/sensor_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2:/home/wynz/sensor_ws/install/witmotion_ros:/home/wynz/sensor_ws/install/stella_ahrs:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble')]), 'shell': False}
+[24.516049] (livox_ros_driver2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.516201] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2\n'}
+[24.516277] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[24.516338] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[24.516398] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h\n'}
+[24.516458] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[24.516522] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c\n'}
+[24.516565] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h\n'}
+[24.516627] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h\n'}
+[24.516684] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h\n'}
+[24.516727] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h\n'}
+[24.516793] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h\n'}
+[24.516846] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h\n'}
+[24.516887] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c\n'}
+[24.516929] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h\n'}
+[24.516991] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h\n'}
+[24.517032] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh\n'}
+[24.517088] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv\n'}
+[24.517147] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so\n'}
+[24.517319] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""\n'}
+[24.517381] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[24.517418] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[24.517454] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[24.517513] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h\n'}
+[24.517551] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[24.517583] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[24.517632] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\n'}
+[24.517749] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.517806] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[24.517844] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[24.517879] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[24.517935] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h\n'}
+[24.517972] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h\n'}
+[24.518008] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c\n'}
+[24.518062] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c\n'}
+[24.518101] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[24.518146] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\n'}
+[24.518277] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.518330] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so\n'}
+[24.518449] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""\n'}
+[24.518502] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[24.518539] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[24.518593] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[24.518628] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp\n'}
+[24.518663] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp\n'}
+[24.518714] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp\n'}
+[24.518750] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp\n'}
+[24.518802] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp\n'}
+[24.518845] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp\n'}
+[24.518879] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp\n'}
+[24.518927] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp\n'}
+[24.518975] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[24.519025] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp\n'}
+[24.519074] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp\n'}
+[24.519122] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[24.519178] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[24.519222] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[24.519260] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.519311] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps\n'}
+[24.519347] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.519397] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.519430] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.519555] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.519599] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2\n'}
+[24.519645] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg\n'}
+[24.519703] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail\n'}
+[24.519739] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp\n'}
+[24.519773] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.519826] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.519860] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp\n'}
+[24.519908] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\n'}
+[24.520040] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[24.520082] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so\n'}
+[24.520218] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""\n'}
+[24.520290] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh\n'}
+[24.520340] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv\n'}
+[24.520385] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info\n'}
+[24.520450] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[24.520500] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[24.520548] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[24.520594] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[24.520660] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2\n'}
+[24.520707] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c\n'}
+[24.520756] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.520806] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg\n'}
+[24.520857] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c\n'}
+[24.520903] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py\n'}
+[24.520949] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py\n'}
+[24.521001] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py\n'}
+[24.521071] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c\n'}
+[24.521133] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.521194] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[24.521288] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.521351] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.521402] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py\n'}
+[24.521456] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.545481] (livox_ros_driver2) StdoutLine: {'line': b"Listing '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...\n"}
+[24.545635] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...\n"}
+[24.545680] (livox_ros_driver2) StdoutLine: {'line': b"Listing '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...\n"}
+[24.545724] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py'...\n"}
+[24.545761] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py'...\n"}
+[24.545797] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py'...\n"}
+[24.549137] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.549271] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.549345] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.549417] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.549549] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.549723] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.549806] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[24.549883] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so" to ""\n'}
+[24.549944] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl\n'}
+[24.550009] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl\n'}
+[24.550091] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg\n'}
+[24.550153] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg\n'}
+[24.550252] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node\n'}
+[24.550503] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node" to ""\n'}
+[24.550568] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2.so\n'}
+[24.552497] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2.so" to ""\n'}
+[24.552582] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config\n'}
+[24.552625] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json\n'}
+[24.552682] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json\n'}
+[24.552718] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json\n'}
+[24.552753] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz\n'}
+[24.552805] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz\n'}
+[24.552841] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2\n'}
+[24.552893] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py\n'}
+[24.552929] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py\n'}
+[24.552980] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py\n'}
+[24.553016] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py\n'}
+[24.553062] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py\n'}
+[24.553113] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2\n'}
+[24.553179] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2\n'}
+[24.553253] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh\n'}
+[24.553314] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv\n'}
+[24.553378] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh\n'}
+[24.553439] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv\n'}
+[24.553531] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash\n'}
+[24.553621] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh\n'}
+[24.553677] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh\n'}
+[24.553727] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv\n'}
+[24.553776] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv\n'}
+[24.553837] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2\n'}
+[24.553925] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake\n'}
+[24.553995] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-noconfig.cmake\n'}
+[24.554070] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.554142] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[24.554232] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.554287] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[24.554361] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake\n'}
+[24.554428] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[24.554498] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake\n'}
+[24.554567] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.554633] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[24.554704] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.554769] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[24.554838] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake\n'}
+[24.554910] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[24.554980] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake\n'}
+[24.555045] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[24.555138] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2\n'}
+[24.555208] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake\n'}
+[24.555273] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.555337] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.555401] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.555465] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.555528] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.555590] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.555652] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake\n'}
+[24.555705] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake\n'}
+[24.555766] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/package.xml\n'}
+[24.557232] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[24.570214] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 0}
+[24.597100] (-) TimerEvent: {}
+[24.697432] (-) TimerEvent: {}
+[24.730679] (livox_sdk2) StdoutLine: {'line': b'[100%] Built target livox_lidar_sdk_shared\n'}
+[24.738758] (livox_sdk2) CommandEnded: {'returncode': 0}
+[24.739253] (livox_sdk2) JobProgress: {'identifier': 'livox_sdk2', 'progress': 'install'}
+[24.739479] (livox_sdk2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2'], 'cwd': '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'wynz'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/lib:/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib:/home/wynz/sensor_ws/install/livox_sdk2/lib:/home/wynz/sensor_ws/install/witmotion_ros/lib:/usr/local/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wynz'), ('OLDPWD', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1663'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3580'), ('COLCON_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install:/home/wynz/sensor_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wynz'), ('JOURNAL_STREAM', '8:14182'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', 'ROS2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wynz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/wynz/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/wynz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wynz-NUC11PHi7:@/tmp/.ICE-unix/1874,unix/wynz-NUC11PHi7:/tmp/.ICE-unix/1874'), ('INVOCATION_ID', '573990a28f5349b298ad9081aa355844'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '0'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2:/home/wynz/sensor_ws/install/witmotion_ros:/home/wynz/sensor_ws/install/stella_ahrs:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fbbaf923-914a-493a-812c-43d5df9c3d89'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/wynz/.ignition/fuel/models:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/wynz/sensor_ws/build/nmea_navsat_driver/src:/home/wynz/sensor_ws/install/nmea_navsat_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2:/home/wynz/sensor_ws/install/witmotion_ros:/home/wynz/sensor_ws/install/stella_ahrs')]), 'shell': False}
+[24.744689] (livox_sdk2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.744815] (livox_sdk2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/lib/liblivox_lidar_sdk_static.a\n'}
+[24.757236] (livox_sdk2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/include/livox_lidar_def.h\n'}
+[24.757323] (livox_sdk2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/include/livox_lidar_api.h\n'}
+[24.757392] (livox_sdk2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/include/livox_lidar_cfg.h\n'}
+[24.757436] (livox_sdk2) StdoutLine: {'line': b'-- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/lib/liblivox_lidar_sdk_shared.so\n'}
+[24.761608] (livox_sdk2) CommandEnded: {'returncode': 0}
+[24.764986] (livox_sdk2) JobEnded: {'identifier': 'livox_sdk2', 'rc': 0}
+[24.765570] (-) EventReactorShutdown: {}

@@ -1,0 +1,359 @@
+[0.009s] Invoking command in '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble /usr/bin/cmake /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.147s] -- Detecting C compiler ABI info - done
+[0.154s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.154s] -- Detecting C compile features
+[0.155s] -- Detecting C compile features - done
+[0.158s] -- Detecting CXX compiler ABI info
+[0.214s] -- Detecting CXX compiler ABI info - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.220s] -- Detecting CXX compile features
+[0.220s] -- Detecting CXX compile features - done
+[0.221s] -- livox_ros_driver2 version: 1.2.4
+[0.222s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.401s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.693s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.699s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.744s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.839s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.842s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.007s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.084s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.178s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.191s] -- Looking for pthread.h
+[1.366s] -- Looking for pthread.h - found
+[1.366s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.542s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.547s] -- Found Threads: TRUE  
+[1.925s] -- Checking for module 'eigen3'
+[1.960s] --   Found eigen3, version 3.4.0
+[2.031s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.031s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.114s] -- Checking for module 'flann'
+[2.139s] --   Found flann, version 1.9.1
+[2.244s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.245s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.410s] -- Checking for module 'libusb-1.0'
+[4.441s] --   Found libusb-1.0, version 1.0.25
+[4.542s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.543s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.656s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.997s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.009s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.014s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.425s] -- Found Qhull version 8.0.2
+[5.647s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.987s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.991s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.996s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[6.000s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[6.007s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[6.007s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[6.007s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[6.010s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[6.012s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[6.018s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[6.020s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[6.022s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[6.026s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[6.030s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[6.031s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[6.038s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[6.040s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[6.043s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[6.047s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[6.048s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[6.056s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[6.056s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[6.056s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[6.059s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[6.061s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[6.136s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[6.138s] -- Checking for module 'apr-1'
+[6.141s] --   No package 'apr-1' found
+[6.393s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.647s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.112s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.112s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.138s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.139s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.139s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.140s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[7.159s] -- Found PythonExtra: .so  
+[7.251s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.281s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.289s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.290s] -- Configured cppcheck include dirs: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/3rdparty;/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src
+[7.290s] -- Configured cppcheck exclude dirs and/or files: 
+[7.305s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.305s] -- Configured cpplint exclude dirs and/or files: 
+[7.309s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.311s] -- Added test 'lint_cmake' to check CMake code style
+[7.313s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.321s] -- Added test 'uncrustify' to check C / C++ code style
+[7.321s] -- Configured uncrustify additional arguments: 
+[7.322s] -- Added test 'xmllint' to check XML markup files
+[7.326s] -- Configuring done
+[7.473s] -- Generating done
+[7.524s] -- Build files have been written to: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2
+[7.562s] Invoked command in '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble /usr/bin/cmake /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2
+[7.564s] Invoking command in '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble /usr/bin/cmake --build /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 -- -j8 -l8
+[7.668s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.695s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.707s] [  5%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o[0m
+[7.712s] [  5%] Built target ament_cmake_python_copy_livox_ros_driver2
+[8.291s] running egg_info
+[8.292s] creating livox_ros_driver2.egg-info
+[8.292s] writing livox_ros_driver2.egg-info/PKG-INFO
+[8.292s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[8.293s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[8.293s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[8.296s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[8.297s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[8.344s] [  5%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[8.728s] [  5%] Built target livox_interfaces2__cpp
+[8.749s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.750s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.750s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.989s] [ 12%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o[0m
+[8.992s] [ 14%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o[0m
+[9.113s] [ 15%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so[0m
+[9.209s] [ 15%] Built target livox_interfaces2__rosidl_generator_c
+[9.234s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.240s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.242s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.803s] [ 22%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[9.814s] [ 24%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[9.901s] [ 26%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o[0m
+[9.918s] [ 28%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[10.200s] [ 29%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[10.271s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[10.346s] [ 33%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so[0m
+[10.385s] [ 35%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[10.475s] [ 35%] Built target livox_interfaces2__rosidl_typesupport_c
+[10.496s] [ 36%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o[0m
+[10.504s] [ 38%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o[0m
+[10.598s] [ 40%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o[0m
+[10.643s] [ 42%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so[0m
+[10.689s] [ 43%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o[0m
+[10.769s] [ 43%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[10.784s] [ 45%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so[0m
+[10.833s] [ 47%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o[0m
+[10.875s] [ 47%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[10.877s] [ 49%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[10.911s] [ 50%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o[0m
+[10.937s] [ 52%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o[0m
+[11.373s] [ 54%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o[0m
+[11.425s] [ 56%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.632s] [ 57%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so[0m
+[11.668s] [ 57%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[11.688s] [ 59%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o[0m
+[11.798s] [ 61%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so[0m
+[11.872s] [ 61%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[11.912s] [ 63%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o[0m
+[11.955s] [ 63%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[12.000s] [ 63%] Built target livox_interfaces2
+[12.012s] [ 64%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o[0m
+[13.390s] [ 66%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o[0m
+[13.624s] [ 68%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o[0m
+[13.731s] [ 70%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o[0m
+[14.274s] [ 71%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o[0m
+[14.283s] [ 73%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o[0m
+[14.520s] [ 75%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o[0m
+[15.761s] [ 77%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o[0m
+[16.280s] [ 78%] [32m[1mLinking CXX executable livox_ros_driver2_node[0m
+[16.779s] [ 80%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o[0m
+[16.803s] [ 80%] Built target livox_ros_driver2_node
+[16.858s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.983s] [ 82%] Built target livox_interfaces2__py
+[19.034s] [ 84%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o[0m
+[19.036s] [ 85%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o[0m
+[19.270s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so[0m
+[19.406s] [ 87%] Built target livox_interfaces2__rosidl_generator_py
+[19.456s] [ 89%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.458s] [ 91%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.460s] [ 92%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o[0m
+[19.601s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.602s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.676s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[19.691s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[19.730s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.829s] [ 98%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[25.987s] [100%] [32m[1mLinking CXX shared library liblivox_ros_driver2.so[0m
+[27.188s] [100%] Built target livox_ros_driver2
+[27.196s] Invoked command in '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble /usr/bin/cmake --build /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 -- -j8 -l8
+[27.197s] Invoking command in '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble /usr/bin/cmake --install /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2
+[27.204s] -- Install configuration: ""
+[27.204s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[27.204s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[27.204s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[27.204s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+[27.204s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[27.204s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c
+[27.204s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[27.204s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+[27.204s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+[27.205s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[27.205s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[27.205s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[27.205s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c
+[27.205s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+[27.205s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[27.205s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[27.205s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[27.205s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[27.205s] -- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""
+[27.205s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[27.205s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[27.206s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[27.206s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[27.206s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[27.206s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.206s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[27.206s] -- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""
+[27.206s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[27.206s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[27.206s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[27.206s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[27.206s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[27.206s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+[27.206s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+[27.207s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.207s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[27.207s] -- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""
+[27.207s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[27.207s] -- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""
+[27.207s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[27.207s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[27.207s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[27.207s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+[27.207s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[27.207s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[27.207s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[27.207s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[27.207s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+[27.208s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[27.208s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[27.208s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+[27.208s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+[27.208s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+[27.208s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[27.208s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[27.208s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[27.208s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[27.208s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps
+[27.208s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[27.208s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.208s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[27.209s] -- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[27.209s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[27.209s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[27.209s] -- Up-to-date: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[27.209s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+[27.209s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[27.209s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[27.209s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+[27.209s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[27.209s] -- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""
+[27.209s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[27.209s] -- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""
+[27.209s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[27.209s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[27.209s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info
+[27.209s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[27.210s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+[27.211s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py
+[27.211s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[27.235s] Listing '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...
+[27.235s] Compiling '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...
+[27.235s] Listing '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...
+[27.235s] Compiling '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py'...
+[27.235s] Compiling '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py'...
+[27.235s] Compiling '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py'...
+[27.238s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[27.238s] -- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[27.238s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[27.238s] -- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[27.238s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[27.238s] -- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[27.238s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so
+[27.238s] -- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so" to ""
+[27.239s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[27.239s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[27.239s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[27.239s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[27.239s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+[27.239s] -- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node" to ""
+[27.239s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+[27.241s] -- Set runtime path of "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/lib/liblivox_ros_driver2.so" to ""
+[27.241s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config
+[27.241s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+[27.241s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+[27.241s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+[27.241s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz
+[27.241s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz
+[27.242s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2
+[27.242s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py
+[27.242s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py
+[27.242s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py
+[27.242s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py
+[27.242s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py
+[27.242s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[27.242s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[27.242s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[27.242s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[27.242s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[27.242s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[27.243s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[27.243s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[27.243s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[27.243s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[27.243s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[27.243s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[27.243s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake
+[27.243s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-noconfig.cmake
+[27.243s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake
+[27.243s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[27.243s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+[27.243s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.243s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+[27.244s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake
+[27.244s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake
+[27.244s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.244s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[27.244s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+[27.244s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.244s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+[27.244s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake
+[27.244s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake
+[27.244s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-noconfig.cmake
+[27.244s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+[27.245s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[27.245s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.245s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.245s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[27.245s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[27.245s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.245s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.245s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[27.245s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[27.245s] -- Installing: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[27.247s] Invoked command in '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble /usr/bin/cmake --install /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2

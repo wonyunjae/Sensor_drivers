@@ -1,0 +1,16 @@
+[0.009s] Invoking command in '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble /usr/bin/cmake --build /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 -- -j8 -l8
+[0.046s] [  1%] Built target livox_interfaces2__cpp
+[0.048s] failed to create symbolic link '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/ament_cmake_python/livox_ros_driver2/livox_ros_driver2' because existing path cannot be removed: Is a directory
+[0.049s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_livox_ros_driver2.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_livox_ros_driver2] Error 1
+[0.049s] gmake[1]: *** [CMakeFiles/Makefile2:425: CMakeFiles/ament_cmake_python_symlink_livox_ros_driver2.dir/all] Error 2
+[0.049s] gmake[1]: *** Waiting for unfinished jobs....
+[0.052s] [  8%] Built target livox_interfaces2__rosidl_generator_c
+[0.055s] [ 12%] Built target livox_ros_driver2_node
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_cpp[0m
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_cpp[0m
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_cpp[0m
+[0.069s] [ 19%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[0.072s] [ 26%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[0.073s] [ 33%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[0.074s] gmake: *** [Makefile:146: all] Error 2
+[0.076s] Invoked command in '/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wynz/sensor_ws/install/nmea_navsat_driver:/opt/ros/humble /usr/bin/cmake --build /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 -- -j8 -l8
