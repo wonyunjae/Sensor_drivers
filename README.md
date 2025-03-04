@@ -27,13 +27,6 @@ ros2 run nmea_navsat_driver nmea_serial_driver
 
 ### MID-360
 ![image](https://github.com/user-attachments/assets/f5b754a3-70b4-4a51-9790-e6762739133d)
-```jsx
-// 포트 권한 설정 (232-USB컨버터에 따라 이름이 달라질 수 있음)
-sudo chmod +x /dev/serial/by-id/usb-Prolific_Technology_Inc._USB-Serial_Controller-if00-port0
-colcon build --symlink-install
-
-Sensor_drivers/wit
-```
 
 ```jsx
 // git clone
