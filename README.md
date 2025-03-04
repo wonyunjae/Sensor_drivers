@@ -24,3 +24,43 @@ sudo chmod +x /dev/serial/by-id/[PORT_NAME]
 colcon build --symlink-install
 ros2 run nmea_navsat_driver nmea_serial_driver 
 ```
+
+### MID-360
+![image](https://github.com/user-attachments/assets/f5b754a3-70b4-4a51-9790-e6762739133d)
+```jsx
+// 포트 권한 설정 (232-USB컨버터에 따라 이름이 달라질 수 있음)
+sudo chmod +x /dev/serial/by-id/usb-Prolific_Technology_Inc._USB-Serial_Controller-if00-port0
+colcon build --symlink-install
+
+Sensor_drivers/wit
+```
+
+```jsx
+// git clone
+https://github.com/wonyunjae/Sensor_drivers.git 
+// 브랜치 확인 
+git branch -a 
+git checkotut ros2 // ros2 브랜치가 아닐경우에
+cd /Sensor_drivers/ws_livox/src/livox_ros_driver2/
+./build.sh HUMBLE
+
+```
+
+/Sensor_drivers/ws_livox/src/livox_ros_driver2/config/MID360_config.json을 보면
+
+lidar_configs가 있고, host_net_info가 있는데, 
+
+host_net_info —> 192.168.1.2로 변경
+
+lidar_config_ip —> 192.168.1.133 로 변경 후 재 빌드
+
+```jsx
+cd /Sensor_drivers/ws_livox/src/livox_ros_driver2/
+./build.sh HUMBLE
+cd /Sensor_drivers/ws_livox
+source ./install/setup.bash
+//MID360 라이다 실행
+ros2 launch livox_ros_driver2 rviz_MID360_launch.py 
+
+```
+
