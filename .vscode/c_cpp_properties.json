@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/wonseo/traxxas_ws/devel/include/**",
+        "/home/wonseo/disco_slam_ws/devel/include/**",
+        "/home/wonseo/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/wonseo/Test_CubeMars_ws/devel/include/**",
+        "/home/wonseo/Test_CubeMars_ws/src/c_can_library/c_can_library/include/**",
+        "/home/wonseo/Test_CubeMars_ws/src/cubemars_AK_driver/include/**",
+        "/home/wonseo/Test_CubeMars_ws/src/kigam_rover_driver/include/**",
+        "/home/wonseo/Test_CubeMars_ws/src/kigam_rover_test_session/include/**",
+        "/home/wonseo/mr_slam_rq_ws/src/kindr/include/**",
+        "/home/wonseo/disco_slam_ws/src/LIO-SAM/include/**",
+        "/home/wonseo/traxxas_ws/src/ros-pwm-pca9685/pwm_pca9685/include/**",
+        "/home/wonseo/catkin_ws/src/realsense-ros/realsense2_camera/include/**",
+        "/home/wonseo/catkin_ws/src/socketcan_test1/include/**",
+        "/home/wonseo/traxxas_ws/src/Sensor_drivers/ublox_f9p/ublox_gps/include/**",
+        "/home/wonseo/traxxas_ws/src/Sensor_drivers/ublox_f9p/ublox_msgs/include/**",
+        "/home/wonseo/traxxas_ws/src/Sensor_drivers/ublox_f9p/ublox_serialization/include/**",
+        "/home/wonseo/traxxas_ws/src/Sensor_drivers/velodyne/velodyne_driver/include/**",
+        "/home/wonseo/traxxas_ws/src/Sensor_drivers/velodyne/velodyne_laserscan/include/**",
+        "/home/wonseo/traxxas_ws/src/Sensor_drivers/velodyne/velodyne_pcl/include/**",
+        "/home/wonseo/traxxas_ws/src/Sensor_drivers/velodyne/velodyne_pointcloud/include/**",
+        "/home/wonseo/traxxas_ws/src/Sensor_drivers/witmotion_ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
