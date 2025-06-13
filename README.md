@@ -53,7 +53,30 @@ cd /Sensor_drivers/ws_livox/src/livox_ros_driver2/
 cd /Sensor_drivers/ws_livox
 source ./install/setup.bash
 //MID360 라이다 실행
-ros2 launch livox_ros_driver2 rviz_MID360_launch.py 
+ros2 launch livox_ros_driver2 rviz_MID360_launch.py
+
+if (use_multi_topic_) {
+    if (!private_pub_[handle]) {
+      char name_str[48];
+      memset(name_str, 0, sizeof(name_str));
+      std::string ip_string = IpNumToString(lds_->lidars_[handle].handle);
+      
+      // IP 주소에 따라 front/rear 구분
+      if (ip_string == "192.168.1.10") {  // 첫 번째 LiDAR IP
+        snprintf(name_str, sizeof(name_str), "livox_front");
+      } else if (ip_string == "192.168.1.11") {  // 두 번째 LiDAR IP
+        snprintf(name_str, sizeof(name_str), "livox_rear");
+      } else {
+        snprintf(name_str, sizeof(name_str), "livox/lidar_%s",
+                 ReplacePeriodByUnderline(ip_string).c_str());
+      }
+      
+      std::string topic_name(name_str);
+      queue_size = queue_size / 8;
+      private_pub_[handle] = CreatePublisher(transfer_format_, topic_name, queue_size);
+    }
+    return private_pub_[handle];
+  }
 
 ```
 
