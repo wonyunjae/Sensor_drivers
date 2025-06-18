@@ -34,8 +34,6 @@ https://github.com/wonyunjae/Sensor_drivers.git
 // 브랜치 확인 
 git branch -a 
 git checkotut ros2 // ros2 브랜치가 아닐경우에
-cd /Sensor_drivers/ws_livox/src/livox_ros_driver2/
-./build.sh HUMBLE
 
 ```
 
@@ -50,33 +48,19 @@ lidar_config_ip —> 192.168.1.133 로 변경 후 재 빌드
 ```jsx
 cd /Sensor_drivers/ws_livox/src/livox_ros_driver2/
 ./build.sh HUMBLE
+// 만약 build 시 Could not find LIVOX_LIDAR_SDK_LIBRARY using the following names: liblivox_lidar_sdk_shared.so, /usr/local/lib 에러가 발생한다면
+// usr/local/lib 경로에 livox_sdk가 제대로 설치 되지 않았다는 뜻
+cd /Sensor_drivers/ws_livox/src/Livox-SDK2/
+rm -rf build //build 폴더가 이미 있을 경우
+mkdir build && cd build
+cmake .. && make -j
+sudo make install
+cd /Sensor_drivers/ws_livox/src/livox_ros_driver2
+./build.sh humble // 재 빌드
 cd /Sensor_drivers/ws_livox
 source ./install/setup.bash
 //MID360 라이다 실행
 ros2 launch livox_ros_driver2 rviz_MID360_launch.py
-
-if (use_multi_topic_) {
-    if (!private_pub_[handle]) {
-      char name_str[48];
-      memset(name_str, 0, sizeof(name_str));
-      std::string ip_string = IpNumToString(lds_->lidars_[handle].handle);
-      
-      // IP 주소에 따라 front/rear 구분
-      if (ip_string == "192.168.1.10") {  // 첫 번째 LiDAR IP
-        snprintf(name_str, sizeof(name_str), "livox_front");
-      } else if (ip_string == "192.168.1.11") {  // 두 번째 LiDAR IP
-        snprintf(name_str, sizeof(name_str), "livox_rear");
-      } else {
-        snprintf(name_str, sizeof(name_str), "livox/lidar_%s",
-                 ReplacePeriodByUnderline(ip_string).c_str());
-      }
-      
-      std::string topic_name(name_str);
-      queue_size = queue_size / 8;
-      private_pub_[handle] = CreatePublisher(transfer_format_, topic_name, queue_size);
-    }
-    return private_pub_[handle];
-  }
 
 ```
 
