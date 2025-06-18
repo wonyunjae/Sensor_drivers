@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2
+CMAKE_SOURCE_DIR = /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2
+CMAKE_BINARY_DIR = /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,8 +77,8 @@ test/fast: test
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/CMakeFiles /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/livox_interfaces2__py//CMakeFiles/progress.marks
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 livox_interfaces2__py/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/CMakeFiles 0
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/CMakeFiles /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/livox_interfaces2__py//CMakeFiles/progress.marks
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 livox_interfaces2__py/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 livox_interfaces2__py/clean
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 livox_interfaces2__py/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 livox_interfaces2__py/preinstall
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 livox_interfaces2__py/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 livox_interfaces2__py/preinstall
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 livox_interfaces2__py/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 livox_interfaces2__py/CMakeFiles/livox_interfaces2__py.dir/rule:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 livox_interfaces2__py/CMakeFiles/livox_interfaces2__py.dir/rule
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 livox_interfaces2__py/CMakeFiles/livox_interfaces2__py.dir/rule
 .PHONY : livox_interfaces2__py/CMakeFiles/livox_interfaces2__py.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ livox_interfaces2__py: livox_interfaces2__py/CMakeFiles/livox_interfaces2__py.di
 
 # fast build rule for target.
 livox_interfaces2__py/fast:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(MAKE) $(MAKESILENT) -f livox_interfaces2__py/CMakeFiles/livox_interfaces2__py.dir/build.make livox_interfaces2__py/CMakeFiles/livox_interfaces2__py.dir/build
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(MAKE) $(MAKESILENT) -f livox_interfaces2__py/CMakeFiles/livox_interfaces2__py.dir/build.make livox_interfaces2__py/CMakeFiles/livox_interfaces2__py.dir/build
 .PHONY : livox_interfaces2__py/fast
 
 # Help Target
@@ -210,6 +210,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

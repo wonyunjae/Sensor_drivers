@@ -1,0 +1,95 @@
+[0.008s] Invoking command in '/home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smarthc/ros2_ws/install/utils:/home/smarthc/ros2_ws/install/object_detection:/home/smarthc/ros2_ws/install/local_pkg:/opt/ros/humble /usr/bin/cmake /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2
+[0.155s] -- The C compiler identification is GNU 11.4.0
+[0.247s] -- The CXX compiler identification is GNU 11.4.0
+[0.258s] -- Detecting C compiler ABI info
+[0.309s] -- Detecting C compiler ABI info - done
+[0.313s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.313s] -- Detecting C compile features
+[0.313s] -- Detecting C compile features - done
+[0.316s] -- Detecting CXX compiler ABI info
+[0.370s] -- Detecting CXX compiler ABI info - done
+[0.374s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.375s] -- Detecting CXX compile features
+[0.375s] -- Detecting CXX compile features - done
+[0.375s] -- livox_ros_driver2 version: 1.2.4
+[0.378s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.496s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.643s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.688s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.771s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.775s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.859s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.879s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.907s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.917s] -- Looking for pthread.h
+[0.970s] -- Looking for pthread.h - found
+[0.970s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.023s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.024s] -- Found Threads: TRUE  
+[1.147s] -- Checking for module 'eigen3'
+[1.157s] --   Found eigen3, version 3.4.0
+[1.182s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.182s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.220s] -- Checking for module 'flann'
+[1.231s] --   Found flann, version 1.9.1
+[1.260s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.260s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.966s] -- Checking for module 'libusb-1.0'
+[1.977s] --   Found libusb-1.0, version 1.0.25
+[2.003s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.003s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.043s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.132s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.136s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.140s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.229s] -- Found Qhull version 8.0.2
+[2.309s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.389s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.389s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.390s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.390s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.390s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.391s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.391s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.391s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.392s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.392s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.393s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.393s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.394s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.394s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.394s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.395s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.395s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.396s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.396s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.397s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.397s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.397s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.398s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.398s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.399s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.426s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.427s] -- Checking for module 'apr-1'
+[2.439s] --   Found apr-1, version 1.7.0
+[2.466s] [0m/usr/include/apr-1.0[0m
+[2.466s] [0mapr-1[0m
+[2.605s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.741s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.931s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.946s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.966s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.983s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.983s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.983s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.983s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.998s] -- Found PythonExtra: .so  
+[3.028s] [31mCMake Error at CMakeLists.txt:249 (find_library):
+[3.028s]   Could not find LIVOX_LIDAR_SDK_LIBRARY using the following names:
+[3.028s]   liblivox_lidar_sdk_shared.so, /usr/local/lib
+[3.028s] 
+[3.028s] [0m
+[3.028s] -- Configuring incomplete, errors occurred!
+[3.028s] See also "/home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/CMakeFiles/CMakeOutput.log".
+[3.039s] Invoked command in '/home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smarthc/ros2_ws/install/utils:/home/smarthc/ros2_ws/install/object_detection:/home/smarthc/ros2_ws/install/local_pkg:/opt/ros/humble /usr/bin/cmake /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2

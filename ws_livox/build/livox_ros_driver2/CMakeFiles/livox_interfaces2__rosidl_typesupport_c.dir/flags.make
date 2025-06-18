@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DBUILDING_ROS2 -DDISABLE_PCAP -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_GENERATOR_C_BUILDING_DLL_livox_ros_driver2 -DROS_PACKAGE_NAME=\"livox_ros_driver2\"
 
-CXX_INCLUDES = -I/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/rosidl_generator_c -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_c
+CXX_INCLUDES = -I/home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/rosidl_generator_c -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_c
 
 CXX_FLAGS = -fPIC -Wall -std=gnu++14
 

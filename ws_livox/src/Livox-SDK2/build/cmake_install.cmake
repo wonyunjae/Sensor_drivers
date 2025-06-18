@@ -1,4 +1,4 @@
-# Install script for directory: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2
+# Install script for directory: /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/build/sdk_core/cmake_install.cmake")
-  include("/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/build/samples/cmake_install.cmake")
+  include("/home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/build/sdk_core/cmake_install.cmake")
+  include("/home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/build/samples/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

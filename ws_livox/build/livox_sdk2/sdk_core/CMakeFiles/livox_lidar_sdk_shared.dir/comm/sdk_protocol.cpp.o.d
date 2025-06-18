@@ -1,7 +1,7 @@
 sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/sdk_protocol.cpp.o: \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/comm/sdk_protocol.cpp \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/comm/sdk_protocol.cpp \
  /usr/include/stdc-predef.h \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/comm/sdk_protocol.h \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/comm/sdk_protocol.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -17,8 +17,8 @@ sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/sdk_protocol.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/./comm/protocol.h \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/FastCRC/FastCRC.h \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/./comm/protocol.h \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/FastCRC/FastCRC.h \
  /usr/include/inttypes.h /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

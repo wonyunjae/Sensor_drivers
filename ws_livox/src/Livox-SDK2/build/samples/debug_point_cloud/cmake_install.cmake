@@ -1,4 +1,4 @@
-# Install script for directory: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/debug_point_cloud
+# Install script for directory: /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/debug_point_cloud
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

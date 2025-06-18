@@ -1,7 +1,7 @@
 CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o: \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/comm/comm.cpp \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/comm/comm.cpp \
  /usr/include/stdc-predef.h \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/comm/comm.h \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/comm/comm.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -200,7 +200,7 @@ CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o: \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.h \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/list.tcc /usr/include/c++/11/mutex \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \

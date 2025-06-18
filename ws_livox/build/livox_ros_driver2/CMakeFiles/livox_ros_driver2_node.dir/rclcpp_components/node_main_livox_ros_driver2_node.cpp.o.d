@@ -1,5 +1,5 @@
 CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o: \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/rclcpp_components/node_main_livox_ros_driver2_node.cpp \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/rclcpp_components/node_main_livox_ros_driver2_node.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

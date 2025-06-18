@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2
+CMAKE_SOURCE_DIR = /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2
+CMAKE_BINARY_DIR = /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2
 
 # Utility rule file for ament_cmake_python_copy_livox_ros_driver2.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_livox_ros_driver2.dir/compiler_depend
 include CMakeFiles/ament_cmake_python_copy_livox_ros_driver2.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_livox_ros_driver2:
-	/usr/bin/cmake -E copy_directory /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/rosidl_generator_py/livox_ros_driver2 /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/ament_cmake_python/livox_ros_driver2/livox_ros_driver2
+	/usr/bin/cmake -E copy_directory /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/rosidl_generator_py/livox_ros_driver2 /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/ament_cmake_python/livox_ros_driver2/livox_ros_driver2
 
 ament_cmake_python_copy_livox_ros_driver2: CMakeFiles/ament_cmake_python_copy_livox_ros_driver2
 ament_cmake_python_copy_livox_ros_driver2: CMakeFiles/ament_cmake_python_copy_livox_ros_driver2.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_livox_ros_driver2.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_livox_ros_driver2.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_livox_ros_driver2.dir/depend:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2 /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2 /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/CMakeFiles/ament_cmake_python_copy_livox_ros_driver2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2 /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2 /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/CMakeFiles/ament_cmake_python_copy_livox_ros_driver2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_livox_ros_driver2.dir/depend
 

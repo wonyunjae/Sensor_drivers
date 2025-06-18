@@ -1,7 +1,7 @@
 sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/thread_base.cpp.o: \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/base/thread_base.cpp \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/base/thread_base.cpp \
  /usr/include/stdc-predef.h \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/base/thread_base.h \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/base/thread_base.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -123,7 +123,7 @@ sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/thread_base.cpp.o: \
  /usr/include/c++/11/ext/concurrence.h \
  /usr/include/c++/11/bits/shared_ptr_atomic.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/base/noncopyable.h \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/base/noncopyable.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/localefwd.h \

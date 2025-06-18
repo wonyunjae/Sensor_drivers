@@ -1,7 +1,7 @@
 CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o: \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.cpp \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.cpp \
  /usr/include/stdc-predef.h \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.h \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/comm/lidar_imu_data_queue.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

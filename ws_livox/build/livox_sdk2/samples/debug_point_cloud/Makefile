@@ -57,18 +57,18 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2
+CMAKE_SOURCE_DIR = /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2
+CMAKE_BINARY_DIR = /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/CMakeFiles /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/debug_point_cloud//CMakeFiles/progress.marks
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/debug_point_cloud/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/CMakeFiles 0
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/CMakeFiles /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/debug_point_cloud//CMakeFiles/progress.marks
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/debug_point_cloud/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/debug_point_cloud/clean
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/debug_point_cloud/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/debug_point_cloud/preinstall
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/debug_point_cloud/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/debug_point_cloud/preinstall
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/debug_point_cloud/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/rule:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/rule
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/rule
 .PHONY : samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ debug_point_cloud: samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/ru
 
 # fast build rule for target.
 debug_point_cloud/fast:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/build.make samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/build
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/build.make samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/build
 .PHONY : debug_point_cloud/fast
 
 main.o: main.cpp.o
@@ -180,7 +180,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/build.make samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/main.cpp.o
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/build.make samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -188,7 +188,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/build.make samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/main.cpp.i
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/build.make samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -196,7 +196,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/build.make samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/main.cpp.s
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(MAKE) $(MAKESILENT) -f samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/build.make samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

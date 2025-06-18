@@ -1,7 +1,7 @@
 CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o: \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/comm/semaphore.cpp \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/comm/semaphore.cpp \
  /usr/include/stdc-predef.h \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/comm/semaphore.h \
+ /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/comm/semaphore.h \
  /usr/include/c++/11/mutex /usr/include/c++/11/tuple \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

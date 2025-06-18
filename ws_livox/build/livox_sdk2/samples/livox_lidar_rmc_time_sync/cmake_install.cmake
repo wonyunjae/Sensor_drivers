@@ -1,8 +1,8 @@
-# Install script for directory: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/livox_lidar_rmc_time_sync
+# Install script for directory: /home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/livox_lidar_rmc_time_sync
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2")
+  set(CMAKE_INSTALL_PREFIX "/home/smarthc/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
