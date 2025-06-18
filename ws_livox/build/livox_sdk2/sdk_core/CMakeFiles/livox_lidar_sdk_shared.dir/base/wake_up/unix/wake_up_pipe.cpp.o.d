@@ -1,7 +1,7 @@
 sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/wake_up/unix/wake_up_pipe.cpp.o: \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/base/wake_up/unix/wake_up_pipe.cpp \
+ /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/base/wake_up/unix/wake_up_pipe.cpp \
  /usr/include/stdc-predef.h \
- /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/./base/wake_up/wake_up_pipe.h \
+ /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/./base/wake_up/wake_up_pipe.h \
  /usr/include/fcntl.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

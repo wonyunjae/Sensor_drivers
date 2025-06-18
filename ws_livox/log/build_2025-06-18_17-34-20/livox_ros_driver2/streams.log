@@ -1,0 +1,204 @@
+[0.034s] Invoking command in '/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/talon/ros2_ws/install/talon_sensors:/home/talon/ros2_ws/install/nmea_navsat_driver:/home/talon/ros2_ws/install/imu_rviz:/home/talon/ros2_humble/install/rqt_bag_plugins:/home/talon/ros2_humble/install/rqt_bag:/home/talon/ros2_humble/install/launch_testing_examples:/home/talon/ros2_humble/install/ros2bag:/home/talon/ros2_humble/install/tracetools_test:/home/talon/ros2_humble/install/tracetools_launch:/home/talon/ros2_humble/install/topic_monitor:/home/talon/ros2_humble/install/tf2_tools:/home/talon/ros2_humble/install/examples_tf2_py:/home/talon/ros2_humble/install/tf2_ros_py:/home/talon/ros2_humble/install/sros2:/home/talon/ros2_humble/install/rqt_topic:/home/talon/ros2_humble/install/rqt_srv:/home/talon/ros2_humble/install/rqt_shell:/home/talon/ros2_humble/install/rqt_service_caller:/home/talon/ros2_humble/install/rqt_reconfigure:/home/talon/ros2_humble/install/rqt_py_console:/home/talon/ros2_humble/install/rqt_publisher:/home/talon/ros2_humble/install/rqt_plot:/home/talon/ros2_humble/install/rqt_action:/home/talon/ros2_humble/install/rqt_msg:/home/talon/ros2_humble/install/rqt_console:/home/talon/ros2_humble/install/rqt:/home/talon/ros2_humble/install/rqt_graph:/home/talon/ros2_humble/install/rqt_gui_py:/home/talon/ros2_humble/install/rqt_gui:/home/talon/ros2_humble/install/ros2trace:/home/talon/ros2_humble/install/ros2topic:/home/talon/ros2_humble/install/ros2test:/home/talon/ros2_humble/install/ros2component:/home/talon/ros2_humble/install/ros2param:/home/talon/ros2_humble/install/ros2lifecycle:/home/talon/ros2_humble/install/ros2service:/home/talon/ros2_humble/install/ros2run:/home/talon/ros2_humble/install/ros2launch:/home/talon/ros2_humble/install/ros2pkg:/home/talon/ros2_humble/install/ros2node:/home/talon/ros2_humble/install/ros2multicast:/home/talon/ros2_humble/install/ros2interface:/home/talon/ros2_humble/install/ros2doctor:/home/talon/ros2_humble/install/ros2action:/home/talon/ros2_humble/install/ros2cli:/home/talon/ros2_humble/install/quality_of_service_demo_py:/home/talon/ros2_humble/install/lifecycle_py:/home/talon/ros2_humble/install/launch_testing_ros:/home/talon/ros2_humble/install/launch_ros:/home/talon/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/talon/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/talon/ros2_humble/install/examples_rclpy_minimal_service:/home/talon/ros2_humble/install/examples_rclpy_minimal_publisher:/home/talon/ros2_humble/install/examples_rclpy_minimal_client:/home/talon/ros2_humble/install/examples_rclpy_minimal_action_server:/home/talon/ros2_humble/install/examples_rclpy_minimal_action_client:/home/talon/ros2_humble/install/examples_rclpy_guard_conditions:/home/talon/ros2_humble/install/examples_rclpy_executors:/home/talon/ros2_humble/install/demo_nodes_py:/home/talon/ros2_humble/install/camera_info_manager_py:/home/talon/ros2_humble/install/action_tutorials_py:/home/talon/ros2_humble/install/ament_uncrustify:/home/talon/ros2_humble/install/tracetools_trace:/home/talon/ros2_humble/install/tracetools_read:/home/talon/ros2_humble/install/test_tracetools_launch:/home/talon/ros2_humble/install/test_launch_ros:/home/talon/ros2_humble/install/sensor_msgs_py:/home/talon/ros2_humble/install/rpyutils:/home/talon/ros2_humble/install/rosidl_runtime_py:/home/talon/ros2_humble/install/rosidl_cli:/home/talon/ros2_humble/install/launch_pytest:/home/talon/ros2_humble/install/launch_testing:/home/talon/ros2_humble/install/launch_yaml:/home/talon/ros2_humble/install/launch_xml:/home/talon/ros2_humble/install/launch:/home/talon/ros2_humble/install/osrf_pycommon:/home/talon/ros2_humble/install/domain_coordinator:/home/talon/ros2_humble/install/ament_xmllint:/home/talon/ros2_humble/install/ament_pyflakes:/home/talon/ros2_humble/install/ament_pycodestyle:/home/talon/ros2_humble/install/ament_pep257:/home/talon/ros2_humble/install/ament_pclint:/home/talon/ros2_humble/install/ament_package:/home/talon/ros2_humble/install/ament_mypy:/home/talon/ros2_humble/install/ament_lint_cmake:/home/talon/ros2_humble/install/ament_flake8:/home/talon/ros2_humble/install/ament_copyright:/home/talon/ros2_humble/install/ament_lint:/home/talon/ros2_humble/install/ament_index_python:/home/talon/ros2_humble/install/ament_cpplint:/home/talon/ros2_humble/install/ament_cppcheck:/home/talon/ros2_humble/install/ament_clang_tidy:/home/talon/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.156s] -- The CXX compiler identification is GNU 11.4.0
+[0.163s] -- Detecting C compiler ABI info
+[0.255s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.260s] -- Detecting C compile features
+[0.260s] -- Detecting C compile features - done
+[0.262s] -- Detecting CXX compiler ABI info
+[0.356s] -- Detecting CXX compiler ABI info - done
+[0.363s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.363s] -- Detecting CXX compile features
+[0.364s] -- Detecting CXX compile features - done
+[0.365s] -- livox_ros_driver2 version: 1.2.4
+[0.382s] -- Found ament_cmake_auto: 1.3.11 (/home/talon/ros2_humble/install/ament_cmake_auto/share/ament_cmake_auto/cmake)
+[2.180s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[3.996s] -- Found rosidl_adapter: 3.1.6 (/home/talon/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[4.296s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[4.975s] -- Found rmw_implementation_cmake: 6.1.2 (/home/talon/ros2_humble/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[5.015s] -- Found rmw_fastrtps_cpp: 6.2.7 (/home/talon/ros2_humble/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+[5.605s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.841s] -- Found FastRTPS: /home/talon/ros2_humble/install/fastrtps/include  
+[6.040s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.132s] -- Looking for pthread.h
+[6.550s] -- Looking for pthread.h - found
+[6.554s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.937s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.941s] -- Found Threads: TRUE  
+[7.318s] -- Checking for module 'eigen3'
+[7.367s] --   Found eigen3, version 3.4.0
+[7.452s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[7.453s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.701s] -- Checking for module 'flann'
+[7.803s] --   Found flann, version 1.9.1
+[8.068s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[8.068s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[10.523s] -- Checking for module 'libusb-1.0'
+[10.582s] --   Found libusb-1.0, version 1.0.25
+[10.672s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[10.672s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.796s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.217s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[11.230s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.242s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.662s] -- Found Qhull version 8.0.2
+[12.065s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.391s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[12.392s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[12.392s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[12.393s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[12.393s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[12.394s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[12.394s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[12.394s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[12.395s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[12.395s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[12.396s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[12.396s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[12.397s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[12.397s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[12.398s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[12.398s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[12.399s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[12.399s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[12.400s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[12.400s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[12.401s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[12.401s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[12.401s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[12.402s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[12.402s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[12.469s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[12.470s] -- Checking for module 'apr-1'
+[12.506s] --   Found apr-1, version 1.7.0
+[12.569s] [0m/usr/include/apr-1.0[0m
+[12.569s] [0mapr-1[0m
+[13.136s] -- Found ament_cmake_ros: 0.10.0 (/home/talon/ros2_humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[13.431s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[13.962s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[14.015s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[14.023s] -- Found python_cmake_module: 0.10.0 (/home/talon/ros2_humble/install/python_cmake_module/share/python_cmake_module/cmake)
+[14.084s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[14.084s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.084s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[14.084s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[14.133s] -- Found PythonExtra: .so  
+[14.810s] -- Found ament_lint_auto: 0.12.11 (/home/talon/ros2_humble/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[14.875s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.879s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.880s] -- Configured cppcheck include dirs: /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/3rdparty;/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src
+[14.880s] -- Configured cppcheck exclude dirs and/or files: 
+[14.884s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.884s] -- Configured cpplint exclude dirs and/or files: 
+[14.887s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.890s] -- Added test 'lint_cmake' to check CMake code style
+[14.892s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[14.896s] -- Added test 'uncrustify' to check C / C++ code style
+[14.896s] -- Configured uncrustify additional arguments: 
+[14.899s] -- Added test 'xmllint' to check XML markup files
+[14.905s] -- Configuring done
+[14.958s] -- Generating done
+[14.970s] -- Build files have been written to: /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2
+[14.984s] Invoked command in '/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/talon/ros2_ws/install/talon_sensors:/home/talon/ros2_ws/install/nmea_navsat_driver:/home/talon/ros2_ws/install/imu_rviz:/home/talon/ros2_humble/install/rqt_bag_plugins:/home/talon/ros2_humble/install/rqt_bag:/home/talon/ros2_humble/install/launch_testing_examples:/home/talon/ros2_humble/install/ros2bag:/home/talon/ros2_humble/install/tracetools_test:/home/talon/ros2_humble/install/tracetools_launch:/home/talon/ros2_humble/install/topic_monitor:/home/talon/ros2_humble/install/tf2_tools:/home/talon/ros2_humble/install/examples_tf2_py:/home/talon/ros2_humble/install/tf2_ros_py:/home/talon/ros2_humble/install/sros2:/home/talon/ros2_humble/install/rqt_topic:/home/talon/ros2_humble/install/rqt_srv:/home/talon/ros2_humble/install/rqt_shell:/home/talon/ros2_humble/install/rqt_service_caller:/home/talon/ros2_humble/install/rqt_reconfigure:/home/talon/ros2_humble/install/rqt_py_console:/home/talon/ros2_humble/install/rqt_publisher:/home/talon/ros2_humble/install/rqt_plot:/home/talon/ros2_humble/install/rqt_action:/home/talon/ros2_humble/install/rqt_msg:/home/talon/ros2_humble/install/rqt_console:/home/talon/ros2_humble/install/rqt:/home/talon/ros2_humble/install/rqt_graph:/home/talon/ros2_humble/install/rqt_gui_py:/home/talon/ros2_humble/install/rqt_gui:/home/talon/ros2_humble/install/ros2trace:/home/talon/ros2_humble/install/ros2topic:/home/talon/ros2_humble/install/ros2test:/home/talon/ros2_humble/install/ros2component:/home/talon/ros2_humble/install/ros2param:/home/talon/ros2_humble/install/ros2lifecycle:/home/talon/ros2_humble/install/ros2service:/home/talon/ros2_humble/install/ros2run:/home/talon/ros2_humble/install/ros2launch:/home/talon/ros2_humble/install/ros2pkg:/home/talon/ros2_humble/install/ros2node:/home/talon/ros2_humble/install/ros2multicast:/home/talon/ros2_humble/install/ros2interface:/home/talon/ros2_humble/install/ros2doctor:/home/talon/ros2_humble/install/ros2action:/home/talon/ros2_humble/install/ros2cli:/home/talon/ros2_humble/install/quality_of_service_demo_py:/home/talon/ros2_humble/install/lifecycle_py:/home/talon/ros2_humble/install/launch_testing_ros:/home/talon/ros2_humble/install/launch_ros:/home/talon/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/talon/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/talon/ros2_humble/install/examples_rclpy_minimal_service:/home/talon/ros2_humble/install/examples_rclpy_minimal_publisher:/home/talon/ros2_humble/install/examples_rclpy_minimal_client:/home/talon/ros2_humble/install/examples_rclpy_minimal_action_server:/home/talon/ros2_humble/install/examples_rclpy_minimal_action_client:/home/talon/ros2_humble/install/examples_rclpy_guard_conditions:/home/talon/ros2_humble/install/examples_rclpy_executors:/home/talon/ros2_humble/install/demo_nodes_py:/home/talon/ros2_humble/install/camera_info_manager_py:/home/talon/ros2_humble/install/action_tutorials_py:/home/talon/ros2_humble/install/ament_uncrustify:/home/talon/ros2_humble/install/tracetools_trace:/home/talon/ros2_humble/install/tracetools_read:/home/talon/ros2_humble/install/test_tracetools_launch:/home/talon/ros2_humble/install/test_launch_ros:/home/talon/ros2_humble/install/sensor_msgs_py:/home/talon/ros2_humble/install/rpyutils:/home/talon/ros2_humble/install/rosidl_runtime_py:/home/talon/ros2_humble/install/rosidl_cli:/home/talon/ros2_humble/install/launch_pytest:/home/talon/ros2_humble/install/launch_testing:/home/talon/ros2_humble/install/launch_yaml:/home/talon/ros2_humble/install/launch_xml:/home/talon/ros2_humble/install/launch:/home/talon/ros2_humble/install/osrf_pycommon:/home/talon/ros2_humble/install/domain_coordinator:/home/talon/ros2_humble/install/ament_xmllint:/home/talon/ros2_humble/install/ament_pyflakes:/home/talon/ros2_humble/install/ament_pycodestyle:/home/talon/ros2_humble/install/ament_pep257:/home/talon/ros2_humble/install/ament_pclint:/home/talon/ros2_humble/install/ament_package:/home/talon/ros2_humble/install/ament_mypy:/home/talon/ros2_humble/install/ament_lint_cmake:/home/talon/ros2_humble/install/ament_flake8:/home/talon/ros2_humble/install/ament_copyright:/home/talon/ros2_humble/install/ament_lint:/home/talon/ros2_humble/install/ament_index_python:/home/talon/ros2_humble/install/ament_cpplint:/home/talon/ros2_humble/install/ament_cppcheck:/home/talon/ros2_humble/install/ament_clang_tidy:/home/talon/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2
+[14.987s] Invoking command in '/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/talon/ros2_ws/install/talon_sensors:/home/talon/ros2_ws/install/nmea_navsat_driver:/home/talon/ros2_ws/install/imu_rviz:/home/talon/ros2_humble/install/rqt_bag_plugins:/home/talon/ros2_humble/install/rqt_bag:/home/talon/ros2_humble/install/launch_testing_examples:/home/talon/ros2_humble/install/ros2bag:/home/talon/ros2_humble/install/tracetools_test:/home/talon/ros2_humble/install/tracetools_launch:/home/talon/ros2_humble/install/topic_monitor:/home/talon/ros2_humble/install/tf2_tools:/home/talon/ros2_humble/install/examples_tf2_py:/home/talon/ros2_humble/install/tf2_ros_py:/home/talon/ros2_humble/install/sros2:/home/talon/ros2_humble/install/rqt_topic:/home/talon/ros2_humble/install/rqt_srv:/home/talon/ros2_humble/install/rqt_shell:/home/talon/ros2_humble/install/rqt_service_caller:/home/talon/ros2_humble/install/rqt_reconfigure:/home/talon/ros2_humble/install/rqt_py_console:/home/talon/ros2_humble/install/rqt_publisher:/home/talon/ros2_humble/install/rqt_plot:/home/talon/ros2_humble/install/rqt_action:/home/talon/ros2_humble/install/rqt_msg:/home/talon/ros2_humble/install/rqt_console:/home/talon/ros2_humble/install/rqt:/home/talon/ros2_humble/install/rqt_graph:/home/talon/ros2_humble/install/rqt_gui_py:/home/talon/ros2_humble/install/rqt_gui:/home/talon/ros2_humble/install/ros2trace:/home/talon/ros2_humble/install/ros2topic:/home/talon/ros2_humble/install/ros2test:/home/talon/ros2_humble/install/ros2component:/home/talon/ros2_humble/install/ros2param:/home/talon/ros2_humble/install/ros2lifecycle:/home/talon/ros2_humble/install/ros2service:/home/talon/ros2_humble/install/ros2run:/home/talon/ros2_humble/install/ros2launch:/home/talon/ros2_humble/install/ros2pkg:/home/talon/ros2_humble/install/ros2node:/home/talon/ros2_humble/install/ros2multicast:/home/talon/ros2_humble/install/ros2interface:/home/talon/ros2_humble/install/ros2doctor:/home/talon/ros2_humble/install/ros2action:/home/talon/ros2_humble/install/ros2cli:/home/talon/ros2_humble/install/quality_of_service_demo_py:/home/talon/ros2_humble/install/lifecycle_py:/home/talon/ros2_humble/install/launch_testing_ros:/home/talon/ros2_humble/install/launch_ros:/home/talon/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/talon/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/talon/ros2_humble/install/examples_rclpy_minimal_service:/home/talon/ros2_humble/install/examples_rclpy_minimal_publisher:/home/talon/ros2_humble/install/examples_rclpy_minimal_client:/home/talon/ros2_humble/install/examples_rclpy_minimal_action_server:/home/talon/ros2_humble/install/examples_rclpy_minimal_action_client:/home/talon/ros2_humble/install/examples_rclpy_guard_conditions:/home/talon/ros2_humble/install/examples_rclpy_executors:/home/talon/ros2_humble/install/demo_nodes_py:/home/talon/ros2_humble/install/camera_info_manager_py:/home/talon/ros2_humble/install/action_tutorials_py:/home/talon/ros2_humble/install/ament_uncrustify:/home/talon/ros2_humble/install/tracetools_trace:/home/talon/ros2_humble/install/tracetools_read:/home/talon/ros2_humble/install/test_tracetools_launch:/home/talon/ros2_humble/install/test_launch_ros:/home/talon/ros2_humble/install/sensor_msgs_py:/home/talon/ros2_humble/install/rpyutils:/home/talon/ros2_humble/install/rosidl_runtime_py:/home/talon/ros2_humble/install/rosidl_cli:/home/talon/ros2_humble/install/launch_pytest:/home/talon/ros2_humble/install/launch_testing:/home/talon/ros2_humble/install/launch_yaml:/home/talon/ros2_humble/install/launch_xml:/home/talon/ros2_humble/install/launch:/home/talon/ros2_humble/install/osrf_pycommon:/home/talon/ros2_humble/install/domain_coordinator:/home/talon/ros2_humble/install/ament_xmllint:/home/talon/ros2_humble/install/ament_pyflakes:/home/talon/ros2_humble/install/ament_pycodestyle:/home/talon/ros2_humble/install/ament_pep257:/home/talon/ros2_humble/install/ament_pclint:/home/talon/ros2_humble/install/ament_package:/home/talon/ros2_humble/install/ament_mypy:/home/talon/ros2_humble/install/ament_lint_cmake:/home/talon/ros2_humble/install/ament_flake8:/home/talon/ros2_humble/install/ament_copyright:/home/talon/ros2_humble/install/ament_lint:/home/talon/ros2_humble/install/ament_index_python:/home/talon/ros2_humble/install/ament_cpplint:/home/talon/ros2_humble/install/ament_cppcheck:/home/talon/ros2_humble/install/ament_clang_tidy:/home/talon/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake --build /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 -- -j18 -l18
+[15.048s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[15.060s] [  3%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o[0m
+[15.060s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[15.076s] [  5%] Built target ament_cmake_python_copy_livox_ros_driver2
+[15.456s] [  5%] Built target livox_interfaces2__cpp
+[15.461s] running egg_info
+[15.461s] creating livox_ros_driver2.egg-info
+[15.461s] writing livox_ros_driver2.egg-info/PKG-INFO
+[15.461s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[15.461s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[15.465s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[15.466s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[15.466s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[15.478s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.480s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.481s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.497s] [ 10%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[15.557s] [ 12%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o[0m
+[15.559s] [ 14%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o[0m
+[15.606s] [ 15%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so[0m
+[15.655s] [ 15%] Built target livox_interfaces2__rosidl_generator_c
+[15.671s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.677s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.679s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.938s] [ 22%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[15.946s] [ 24%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[15.958s] [ 26%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[15.960s] [ 28%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[16.036s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[16.036s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[16.086s] [ 33%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so[0m
+[16.117s] [ 35%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[16.121s] [ 36%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o[0m
+[16.143s] [ 36%] Built target livox_interfaces2__rosidl_typesupport_c
+[16.162s] [ 38%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o[0m
+[16.168s] [ 40%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o[0m
+[16.223s] [ 42%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o[0m
+[16.233s] [ 43%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o[0m
+[16.283s] [ 45%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so[0m
+[16.298s] [ 47%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so[0m
+[16.325s] [ 47%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[16.358s] [ 47%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[16.362s] [ 49%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so[0m
+[16.388s] [ 50%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.398s] [ 56%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o[0m
+[16.398s] [ 56%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o[0m
+[16.399s] [ 56%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o[0m
+[16.399s] [ 57%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o[0m
+[16.400s] [ 63%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o[0m
+[16.400s] [ 63%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o[0m
+[16.400s] [ 63%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o[0m
+[16.401s] [ 64%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o[0m
+[16.405s] [ 68%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o[0m
+[16.406s] [ 68%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o[0m
+[16.406s] [ 70%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o[0m
+[16.407s] [ 71%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o[0m
+[16.415s] [ 73%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o[0m
+[16.416s] [ 75%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o[0m
+[16.517s] [ 75%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[16.535s] [ 75%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[16.542s] [ 77%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o[0m
+[16.591s] [ 78%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so[0m
+[16.739s] [ 78%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[16.791s] [ 78%] Built target livox_interfaces2
+[16.842s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.087s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp:[m[K In static member function ‘[01m[Kstatic void livox_ros::LivoxLidarCallback::LidarInfoChangeCallback(uint32_t, const LivoxLidarInfo*, void*)[m[K’:
+[17.087s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp:61:42:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_device[m[K’ was not declared in this scope; did you mean ‘[01m[KLidarDevice[m[K’?
+[17.087s]    61 |     const UserLivoxLidarConfig& config = [01;31m[Klidar_device[m[K->livox_config;
+[17.087s]       |                                          [01;31m[K^~~~~~~~~~~~[m[K
+[17.087s]       |                                          [32m[KLidarDevice[m[K
+[17.088s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp:65:40:[m[K [01;31m[Kerror: [m[K‘[01m[Klds_lidar[m[K’ was not declared in this scope; did you mean ‘[01m[KLdsLidar[m[K’?
+[17.088s]    65 |       std::lock_guard<std::mutex> lock([01;31m[Klds_lidar[m[K->config_mutex_);
+[17.088s]       |                                        [01;31m[K^~~~~~~~~[m[K
+[17.088s]       |                                        [32m[KLdsLidar[m[K
+[17.093s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp:107:75:[m[K [01;31m[Kerror: [m[K‘[01m[Klds_lidar[m[K’ was not declared in this scope; did you mean ‘[01m[KLdsLidar[m[K’?
+[17.093s]   107 |                                  LivoxLidarCallback::SetAttitudeCallback, [01;31m[Klds_lidar[m[K);
+[17.093s]       |                                                                           [01;31m[K^~~~~~~~~[m[K
+[17.094s]       |                                                                           [32m[KLdsLidar[m[K
+[17.163s] gmake[2]: *** [CMakeFiles/livox_ros_driver2.dir/build.make:272: CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o] Error 1
+[17.163s] gmake[2]: *** Waiting for unfinished jobs....
+[17.588s] [ 80%] Built target livox_interfaces2__py
+[17.626s] [ 82%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o[0m
+[17.628s] [ 84%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o[0m
+[17.742s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so[0m
+[17.800s] [ 85%] Built target livox_interfaces2__rosidl_generator_py
+[17.836s] [ 87%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o[0m
+[17.846s] [ 89%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.849s] [ 91%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.930s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.972s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.973s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.987s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[18.031s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[18.033s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[18.371s] [ 98%] [32m[1mLinking CXX executable livox_ros_driver2_node[0m
+[18.730s] [ 98%] Built target livox_ros_driver2_node
+[22.127s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/livox_ros_driver2.dir/all] Error 2
+[22.127s] gmake: *** [Makefile:146: all] Error 2
+[22.130s] Invoked command in '/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/talon/ros2_ws/install/talon_sensors:/home/talon/ros2_ws/install/nmea_navsat_driver:/home/talon/ros2_ws/install/imu_rviz:/home/talon/ros2_humble/install/rqt_bag_plugins:/home/talon/ros2_humble/install/rqt_bag:/home/talon/ros2_humble/install/launch_testing_examples:/home/talon/ros2_humble/install/ros2bag:/home/talon/ros2_humble/install/tracetools_test:/home/talon/ros2_humble/install/tracetools_launch:/home/talon/ros2_humble/install/topic_monitor:/home/talon/ros2_humble/install/tf2_tools:/home/talon/ros2_humble/install/examples_tf2_py:/home/talon/ros2_humble/install/tf2_ros_py:/home/talon/ros2_humble/install/sros2:/home/talon/ros2_humble/install/rqt_topic:/home/talon/ros2_humble/install/rqt_srv:/home/talon/ros2_humble/install/rqt_shell:/home/talon/ros2_humble/install/rqt_service_caller:/home/talon/ros2_humble/install/rqt_reconfigure:/home/talon/ros2_humble/install/rqt_py_console:/home/talon/ros2_humble/install/rqt_publisher:/home/talon/ros2_humble/install/rqt_plot:/home/talon/ros2_humble/install/rqt_action:/home/talon/ros2_humble/install/rqt_msg:/home/talon/ros2_humble/install/rqt_console:/home/talon/ros2_humble/install/rqt:/home/talon/ros2_humble/install/rqt_graph:/home/talon/ros2_humble/install/rqt_gui_py:/home/talon/ros2_humble/install/rqt_gui:/home/talon/ros2_humble/install/ros2trace:/home/talon/ros2_humble/install/ros2topic:/home/talon/ros2_humble/install/ros2test:/home/talon/ros2_humble/install/ros2component:/home/talon/ros2_humble/install/ros2param:/home/talon/ros2_humble/install/ros2lifecycle:/home/talon/ros2_humble/install/ros2service:/home/talon/ros2_humble/install/ros2run:/home/talon/ros2_humble/install/ros2launch:/home/talon/ros2_humble/install/ros2pkg:/home/talon/ros2_humble/install/ros2node:/home/talon/ros2_humble/install/ros2multicast:/home/talon/ros2_humble/install/ros2interface:/home/talon/ros2_humble/install/ros2doctor:/home/talon/ros2_humble/install/ros2action:/home/talon/ros2_humble/install/ros2cli:/home/talon/ros2_humble/install/quality_of_service_demo_py:/home/talon/ros2_humble/install/lifecycle_py:/home/talon/ros2_humble/install/launch_testing_ros:/home/talon/ros2_humble/install/launch_ros:/home/talon/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/talon/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/talon/ros2_humble/install/examples_rclpy_minimal_service:/home/talon/ros2_humble/install/examples_rclpy_minimal_publisher:/home/talon/ros2_humble/install/examples_rclpy_minimal_client:/home/talon/ros2_humble/install/examples_rclpy_minimal_action_server:/home/talon/ros2_humble/install/examples_rclpy_minimal_action_client:/home/talon/ros2_humble/install/examples_rclpy_guard_conditions:/home/talon/ros2_humble/install/examples_rclpy_executors:/home/talon/ros2_humble/install/demo_nodes_py:/home/talon/ros2_humble/install/camera_info_manager_py:/home/talon/ros2_humble/install/action_tutorials_py:/home/talon/ros2_humble/install/ament_uncrustify:/home/talon/ros2_humble/install/tracetools_trace:/home/talon/ros2_humble/install/tracetools_read:/home/talon/ros2_humble/install/test_tracetools_launch:/home/talon/ros2_humble/install/test_launch_ros:/home/talon/ros2_humble/install/sensor_msgs_py:/home/talon/ros2_humble/install/rpyutils:/home/talon/ros2_humble/install/rosidl_runtime_py:/home/talon/ros2_humble/install/rosidl_cli:/home/talon/ros2_humble/install/launch_pytest:/home/talon/ros2_humble/install/launch_testing:/home/talon/ros2_humble/install/launch_yaml:/home/talon/ros2_humble/install/launch_xml:/home/talon/ros2_humble/install/launch:/home/talon/ros2_humble/install/osrf_pycommon:/home/talon/ros2_humble/install/domain_coordinator:/home/talon/ros2_humble/install/ament_xmllint:/home/talon/ros2_humble/install/ament_pyflakes:/home/talon/ros2_humble/install/ament_pycodestyle:/home/talon/ros2_humble/install/ament_pep257:/home/talon/ros2_humble/install/ament_pclint:/home/talon/ros2_humble/install/ament_package:/home/talon/ros2_humble/install/ament_mypy:/home/talon/ros2_humble/install/ament_lint_cmake:/home/talon/ros2_humble/install/ament_flake8:/home/talon/ros2_humble/install/ament_copyright:/home/talon/ros2_humble/install/ament_lint:/home/talon/ros2_humble/install/ament_index_python:/home/talon/ros2_humble/install/ament_cpplint:/home/talon/ros2_humble/install/ament_cppcheck:/home/talon/ros2_humble/install/ament_clang_tidy:/home/talon/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake --build /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2 -- -j18 -l18

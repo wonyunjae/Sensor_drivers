@@ -51,6 +51,7 @@ class LdsLidar final : public Lds {
 
   bool InitLdsLidar(const std::string& path_name);
   bool Start();
+  void SetAutoConnectMode(bool val) { auto_connect_mode_ = val; }
 
   int DeInitLdsLidar(void);
  private:
@@ -71,8 +72,10 @@ class LdsLidar final : public Lds {
   void SetLidarPubHandle();
 
 	// auto connect mode
-	void EnableAutoConnectMode(void) { auto_connect_mode_ = true; }
-  void DisableAutoConnectMode(void) { auto_connect_mode_ = false; }
+	void EnableAutoConnectMode(void) { auto_connect_mode_ = false; }
+  void DisableAutoConnectMode(void) { auto_connect_mode_ = true; }
+  
+
   bool IsAutoConnectMode(void) { return auto_connect_mode_; }
 
   virtual void PrepareExit(void);

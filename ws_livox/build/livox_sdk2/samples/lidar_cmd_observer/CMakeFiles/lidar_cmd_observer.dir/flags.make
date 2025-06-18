@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/lidar_cmd_observer/../../3rdparty -I/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../include
+CXX_INCLUDES = -I/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/lidar_cmd_observer/../../3rdparty -I/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../include
 
 CXX_FLAGS =  -pthread -pthread -std=gnu++11
 

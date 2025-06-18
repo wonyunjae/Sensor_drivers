@@ -1,0 +1,14 @@
+[0m/usr/include/apr-1.0[0m
+[0mapr-1[0m
+[01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/livox_ros_driver2.cpp:[m[K In constructor ‘[01m[Klivox_ros::DriverNode::DriverNode(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/livox_ros_driver2.cpp:178:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid livox_ros::LdsLidar::SetAutoConnectMode(bool)[m[K’ is private within this context
+  178 |     [01;31m[Kread_lidar->SetAutoConnectMode(auto_connect_mode)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/livox_ros_driver2.cpp:35[m[K:
+[01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/lds_lidar.h:76:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+   76 |   void [01;36m[KSetAutoConnectMode[m[K(bool val) { auto_connect_mode_ = val; }
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/livox_ros_driver2.dir/build.make:76: CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/livox_ros_driver2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

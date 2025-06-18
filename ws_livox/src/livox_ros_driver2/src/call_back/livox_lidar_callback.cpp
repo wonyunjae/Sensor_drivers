@@ -51,6 +51,8 @@ void LivoxLidarCallback::LidarInfoChangeCallback(const uint32_t handle,
     }
     LidarDevice *p_lidar = &(lds_lidar->lidars_[index]);
     p_lidar->lidar_type = kLivoxLidarType;
+
+
   } else {
     // set the lidar according to the user-defined config
     const UserLivoxLidarConfig& config = lidar_device->livox_config;
@@ -100,6 +102,7 @@ void LivoxLidarCallback::LidarInfoChangeCallback(const uint32_t handle,
     };
     SetLivoxLidarInstallAttitude(config.handle, &attitude,
                                  LivoxLidarCallback::SetAttitudeCallback, lds_lidar);
+    
   }
 
   std::cout << "begin to change work mode to 'Normal', handle: " << handle << std::endl;

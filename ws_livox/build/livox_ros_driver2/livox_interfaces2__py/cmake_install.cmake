@@ -1,8 +1,8 @@
-# Install script for directory: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/livox_interfaces2__py
+# Install script for directory: /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_ros_driver2/livox_interfaces2__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2")
+  set(CMAKE_INSTALL_PREFIX "/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

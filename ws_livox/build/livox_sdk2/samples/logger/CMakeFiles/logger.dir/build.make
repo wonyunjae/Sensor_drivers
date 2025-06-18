@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2
+CMAKE_SOURCE_DIR = /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2
+CMAKE_BINARY_DIR = /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2
 
 # Include any dependencies generated for this target.
 include samples/logger/CMakeFiles/logger.dir/depend.make
@@ -70,18 +70,18 @@ include samples/logger/CMakeFiles/logger.dir/progress.make
 include samples/logger/CMakeFiles/logger.dir/flags.make
 
 samples/logger/CMakeFiles/logger.dir/main.cpp.o: samples/logger/CMakeFiles/logger.dir/flags.make
-samples/logger/CMakeFiles/logger.dir/main.cpp.o: /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/logger/main.cpp
+samples/logger/CMakeFiles/logger.dir/main.cpp.o: /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/logger/main.cpp
 samples/logger/CMakeFiles/logger.dir/main.cpp.o: samples/logger/CMakeFiles/logger.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object samples/logger/CMakeFiles/logger.dir/main.cpp.o"
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/logger && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT samples/logger/CMakeFiles/logger.dir/main.cpp.o -MF CMakeFiles/logger.dir/main.cpp.o.d -o CMakeFiles/logger.dir/main.cpp.o -c /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/logger/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object samples/logger/CMakeFiles/logger.dir/main.cpp.o"
+	cd /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/logger && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT samples/logger/CMakeFiles/logger.dir/main.cpp.o -MF CMakeFiles/logger.dir/main.cpp.o.d -o CMakeFiles/logger.dir/main.cpp.o -c /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/logger/main.cpp
 
 samples/logger/CMakeFiles/logger.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/logger.dir/main.cpp.i"
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/logger && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/logger/main.cpp > CMakeFiles/logger.dir/main.cpp.i
+	cd /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/logger && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/logger/main.cpp > CMakeFiles/logger.dir/main.cpp.i
 
 samples/logger/CMakeFiles/logger.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/logger.dir/main.cpp.s"
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/logger && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/logger/main.cpp -o CMakeFiles/logger.dir/main.cpp.s
+	cd /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/logger && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/logger/main.cpp -o CMakeFiles/logger.dir/main.cpp.s
 
 # Object files for target logger
 logger_OBJECTS = \
@@ -94,18 +94,18 @@ samples/logger/logger: samples/logger/CMakeFiles/logger.dir/main.cpp.o
 samples/logger/logger: samples/logger/CMakeFiles/logger.dir/build.make
 samples/logger/logger: sdk_core/liblivox_lidar_sdk_static.a
 samples/logger/logger: samples/logger/CMakeFiles/logger.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable logger"
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/logger && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/logger.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable logger"
+	cd /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/logger && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/logger.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 samples/logger/CMakeFiles/logger.dir/build: samples/logger/logger
 .PHONY : samples/logger/CMakeFiles/logger.dir/build
 
 samples/logger/CMakeFiles/logger.dir/clean:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/logger && $(CMAKE_COMMAND) -P CMakeFiles/logger.dir/cmake_clean.cmake
+	cd /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/logger && $(CMAKE_COMMAND) -P CMakeFiles/logger.dir/cmake_clean.cmake
 .PHONY : samples/logger/CMakeFiles/logger.dir/clean
 
 samples/logger/CMakeFiles/logger.dir/depend:
-	cd /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2 /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/logger /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/logger /home/wynz/sensor_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/logger/CMakeFiles/logger.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2 /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples/logger /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/logger /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2/samples/logger/CMakeFiles/logger.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : samples/logger/CMakeFiles/logger.dir/depend
 

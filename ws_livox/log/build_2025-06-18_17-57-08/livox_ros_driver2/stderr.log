@@ -1,0 +1,11 @@
+[0m/usr/include/apr-1.0[0m
+[0mapr-1[0m
+[01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp:[m[K In static member function ‘[01m[Kstatic void livox_ros::LivoxLidarCallback::LidarInfoChangeCallback(uint32_t, const LivoxLidarInfo*, void*)[m[K’:
+[01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/livox_ros_driver2/src/call_back/livox_lidar_callback.cpp:109:3:[m[K [01;31m[Kerror: [m[K‘[01m[KsSetLivoxLidarWorkMode[m[K’ was not declared in this scope; did you mean ‘[01m[KSetLivoxLidarWorkMode[m[K’?
+  109 |   [01;31m[KsSetLivoxLidarWorkMode[m[K(handle, kLivoxLidarNormal, WorkModeChangedCallback, nullptr);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[KSetLivoxLidarWorkMode[m[K
+gmake[2]: *** [CMakeFiles/livox_ros_driver2.dir/build.make:272: CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/livox_ros_driver2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
