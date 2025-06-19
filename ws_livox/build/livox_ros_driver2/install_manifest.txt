@@ -78,11 +78,13 @@
 /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2_rear.rviz
 /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
 /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz
+/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_MID360.json
 /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
 /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_front_config.json
 /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_rear_config.json
 /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_front_launch.py
 /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py
+/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/mixed_MID360.launch.py
 /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py
 /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py
 /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py

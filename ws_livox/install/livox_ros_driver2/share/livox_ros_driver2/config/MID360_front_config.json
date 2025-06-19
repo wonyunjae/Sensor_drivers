@@ -4,11 +4,11 @@
   },
   "MID360": {
     "lidar_net_info" : {
-      "cmd_data_port": 56100,
-      "push_msg_port": 56200,
-      "point_data_port": 56300,
-      "imu_data_port": 56400,
-      "log_data_port": 56500
+      "cmd_data_port": 56111,
+      "push_msg_port": 56211,
+      "point_data_port": 56311,
+      "imu_data_port": 56411,
+      "log_data_port": 56511
     },
     "host_net_info" : {
       "cmd_data_ip" : "192.168.1.5",

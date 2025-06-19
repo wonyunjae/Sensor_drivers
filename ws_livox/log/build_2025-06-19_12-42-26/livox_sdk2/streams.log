@@ -1,0 +1,307 @@
+[0.021s] Invoking command in '/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2': /usr/bin/cmake /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.151s] -- The CXX compiler identification is GNU 11.4.0
+[0.159s] -- Detecting C compiler ABI info
+[0.259s] -- Detecting C compiler ABI info - done
+[0.266s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.266s] -- Detecting C compile features
+[0.266s] -- Detecting C compile features - done
+[0.268s] -- Detecting CXX compiler ABI info
+[0.377s] -- Detecting CXX compiler ABI info - done
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.383s] -- Detecting CXX compile features
+[0.383s] -- Detecting CXX compile features - done
+[0.384s] -- main project dir: /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2
+[0.385s] -- main project dir: /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/samples
+[0.386s] -- Configuring done
+[0.399s] -- Generating done
+[0.400s] [33mCMake Warning:
+[0.400s]   Manually-specified variables were not used by the project:
+[0.400s] 
+[0.400s]     HUMBLE_ROS
+[0.400s]     ROS_EDITION
+[0.400s] 
+[0.400s] [0m
+[0.405s] -- Build files have been written to: /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2
+[0.413s] Invoked command in '/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2' returned '0': /usr/bin/cmake /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2
+[0.415s] Invoking command in '/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2': /usr/bin/cmake --build /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 -- -j18 -l18
+[0.530s] [  2%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade_manager.cpp.o[0m
+[0.530s] [  2%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/parse_cfg_file.cpp.o[0m
+[0.530s] [  3%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/livox_lidar_sdk.cpp.o[0m
+[0.530s] [  4%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/device_manager.cpp.o[0m
+[0.530s] [  7%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/__/3rdparty/FastCRC/FastCRCsw.cpp.o[0m
+[0.530s] [  7%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/params_check.cpp.o[0m
+[0.531s] [  8%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/device_manager.cpp.o[0m
+[0.531s] [  9%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/io_loop.cpp.o[0m
+[0.531s] [ 10%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/__/3rdparty/FastCRC/FastCRCsw.cpp.o[0m
+[0.531s] [ 12%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/logging.cpp.o[0m
+[0.531s] [ 13%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/io_thread.cpp.o[0m
+[0.538s] [ 14%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/livox_lidar_sdk.cpp.o[0m
+[0.538s] [ 15%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade_manager.cpp.o[0m
+[0.543s] [ 18%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_base.cpp.o[0m
+[0.543s] [ 18%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/thread_base.cpp.o[0m
+[0.552s] [ 19%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/params_check.cpp.o[0m
+[0.568s] [ 20%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/parse_cfg_file.cpp.o[0m
+[0.635s] [ 21%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/network/unix/network_util.cpp.o[0m
+[0.740s] [ 22%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/io_loop.cpp.o[0m
+[0.804s] [ 24%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/thread_base.cpp.o[0m
+[1.071s] [ 25%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_epoll.cpp.o[0m
+[1.155s] [ 26%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/io_thread.cpp.o[0m
+[1.288s] [ 27%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_poll.cpp.o[0m
+[1.311s] [ 28%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_select.cpp.o[0m
+[1.690s] [ 30%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/multiple_io/multiple_io_kqueue.cpp.o[0m
+[1.745s] [ 31%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/logging.cpp.o[0m
+[1.869s] [ 33%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_base.cpp.o[0m
+[1.873s] [ 33%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/network/unix/network_util.cpp.o[0m
+[2.096s] [ 34%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_epoll.cpp.o[0m
+[2.138s] [ 36%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_poll.cpp.o[0m
+[2.205s] [ 37%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/base/wake_up/unix/wake_up_pipe.cpp.o[0m
+[2.282s] [ 38%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_select.cpp.o[0m
+[2.423s] [ 39%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/comm_port.cpp.o[0m
+[2.582s] [ 40%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/sdk_protocol.cpp.o[0m
+[2.709s] [ 42%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/comm/generate_seq.cpp.o[0m
+[2.730s] [ 43%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade/firmware.cpp.o[0m
+[3.018s] [ 44%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/upgrade/livox_lidar_upgrader.cpp.o[0m
+[3.118s] [ 45%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/logger_handler.cpp.o[0m
+[3.122s] [ 46%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/logger_manager.cpp.o[0m
+[3.146s] [ 48%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/logger_handler/file_manager.cpp.o[0m
+[3.191s] [ 49%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/data_handler/data_handler.cpp.o[0m
+[3.393s] [ 50%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/multiple_io/multiple_io_kqueue.cpp.o[0m
+[3.785s] [ 51%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/base/wake_up/unix/wake_up_pipe.cpp.o[0m
+[3.866s] [ 53%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/command_impl.cpp.o[0m
+[3.934s] [ 54%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/general_command_handler.cpp.o[0m
+[4.064s] [ 55%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/hap_command_handler.cpp.o[0m
+[4.542s] [ 56%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/comm_port.cpp.o[0m
+[4.621s] [ 57%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/sdk_protocol.cpp.o[0m
+[4.697s] [ 59%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/comm/generate_seq.cpp.o[0m
+[4.737s] [ 60%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/mid360_command_handler.cpp.o[0m
+[4.843s] [ 61%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/build_request.cpp.o[0m
+[4.951s] [ 62%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/command_handler/parse_lidar_state_info.cpp.o[0m
+[5.022s] [ 63%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade/firmware.cpp.o[0m
+[5.028s] [ 65%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/upgrade/livox_lidar_upgrader.cpp.o[0m
+[5.356s] [ 66%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/debug_point_cloud_handler/debug_point_cloud_manager.cpp.o[0m
+[5.444s] In file included from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[5.448s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[5.448s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[5.448s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[5.449s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+[5.449s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2[m[K:
+[5.449s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[5.449s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[5.449s]       |                             [01;35m[K^~~~~~~[m[K
+[5.449s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[5.449s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[5.449s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[5.449s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[5.449s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[5.449s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.449s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[5.449s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[5.449s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.449s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+[5.449s]   542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[5.450s]       |                             [01;36m[K^~~~~~~[m[K
+[5.450s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[5.450s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[5.450s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[5.450s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[5.450s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[5.450s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.450s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[5.450s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[5.450s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.536s] [ 67%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/logger_manager.cpp.o[0m
+[5.587s] [ 68%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_shared.dir/debug_point_cloud_handler/debug_point_cloud_handler.cpp.o[0m
+[6.071s] [ 69%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/logger_handler.cpp.o[0m
+[6.092s] [ 71%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/logger_handler/file_manager.cpp.o[0m
+[6.322s] [ 72%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/data_handler/data_handler.cpp.o[0m
+[6.445s] [ 73%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/command_impl.cpp.o[0m
+[6.523s] In file included from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[6.523s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[6.523s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[6.523s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[6.523s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+[6.524s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37[m[K:
+[6.524s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[6.524s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[6.524s]       |                             [01;35m[K^~~~~~~[m[K
+[6.524s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[6.524s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[6.524s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.524s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[6.524s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[6.524s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.524s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[6.524s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[6.524s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.528s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+[6.528s]   542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[6.529s]       |                             [01;36m[K^~~~~~~[m[K
+[6.529s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[6.529s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[6.529s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.529s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[6.529s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[6.529s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.529s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[6.529s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[6.529s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.560s] [ 74%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/general_command_handler.cpp.o[0m
+[6.831s] [ 75%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/hap_command_handler.cpp.o[0m
+[6.872s] In file included from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[6.872s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[6.872s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[6.872s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[6.873s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+[6.873s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37[m[K:
+[6.873s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[6.873s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[6.873s]       |                             [01;35m[K^~~~~~~[m[K
+[6.873s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[6.873s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[6.873s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.873s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[6.873s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[6.873s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.873s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[6.873s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[6.873s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.877s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+[6.879s]   542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[6.879s]       |                             [01;36m[K^~~~~~~[m[K
+[6.879s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[6.879s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[6.879s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.879s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[6.879s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[6.879s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.879s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[6.879s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[6.879s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.141s] [ 77%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/mid360_command_handler.cpp.o[0m
+[7.898s] [ 78%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/build_request.cpp.o[0m
+[8.233s] [ 79%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/command_handler/parse_lidar_state_info.cpp.o[0m
+[8.571s] [ 80%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/debug_point_cloud_handler/debug_point_cloud_manager.cpp.o[0m
+[8.628s] In file included from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[8.628s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[8.628s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[8.628s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[8.628s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+[8.628s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/hap_command_handler.cpp:37[m[K:
+[8.628s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[8.628s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[8.628s]       |                             [01;35m[K^~~~~~~[m[K
+[8.628s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[8.628s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[8.628s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[8.628s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[8.628s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[8.628s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.628s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[8.628s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[8.628s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.636s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+[8.636s]   542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[8.636s]       |                             [01;36m[K^~~~~~~[m[K
+[8.637s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[8.637s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[8.637s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[8.637s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[8.637s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[8.637s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.637s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[8.637s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[8.637s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.702s] [ 81%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_lidar_sdk_static.dir/debug_point_cloud_handler/debug_point_cloud_handler.cpp.o[0m
+[8.871s] In file included from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[8.872s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[8.872s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[8.872s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[8.872s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+[8.872s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.cpp:2[m[K:
+[8.872s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[8.872s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[8.872s]       |                             [01;35m[K^~~~~~~[m[K
+[8.872s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[8.872s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[8.872s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[8.872s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[8.872s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[8.872s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.872s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[8.872s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[8.872s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.876s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+[8.876s]   542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[8.876s]       |                             [01;36m[K^~~~~~~[m[K
+[8.876s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[8.876s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[8.876s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[8.876s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[8.876s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[8.876s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[8.876s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[8.876s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[8.876s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[9.279s] In file included from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/stream.h:19[m[K,
+[9.280s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/memorystream.h:22[m[K,
+[9.280s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/encodedstream.h:22[m[K,
+[9.281s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/document.h:26[m[K,
+[9.282s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/parse_lidar_state_info.h:38[m[K,
+[9.282s]                  from [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/command_handler/mid360_command_handler.cpp:37[m[K:
+[9.283s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;35m[Kwarning: [m[Kunknown option after ‘[01m[K#pragma GCC diagnostic[m[K’ kind [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[9.283s]   542 | #define RAPIDJSON_PRAGMA(x) [01;35m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[9.284s]       |                             [01;35m[K^~~~~~~[m[K
+[9.284s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[9.285s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[9.286s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[9.286s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[9.286s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[9.286s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[9.286s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[9.286s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[9.286s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[9.286s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:542:29:[m[K [01;36m[Knote: [m[Kdid you mean ‘[01m[K-Warray-bounds[m[K’?
+[9.286s]   542 | #define RAPIDJSON_PRAGMA(x) [01;36m[K_Pragma[m[K(RAPIDJSON_STRINGIFY(x))
+[9.286s]       |                             [01;36m[K^~~~~~~[m[K
+[9.286s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:543:34:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_PRAGMA[m[K’
+[9.286s]   543 | #define RAPIDJSON_DIAG_PRAGMA(x) [01;36m[KRAPIDJSON_PRAGMA[m[K(GCC diagnostic x)
+[9.286s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[9.286s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/rapidjson.h:545:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_PRAGMA[m[K’
+[9.286s]   545 |   [01;36m[KRAPIDJSON_DIAG_PRAGMA[m[K(ignored RAPIDJSON_STRINGIFY(RAPIDJSON_JOIN(-W, x)))
+[9.286s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[9.287s] [01m[K/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/src/Livox-SDK2/sdk_core/../3rdparty/rapidjson/internal/dtoa.h:36:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRAPIDJSON_DIAG_OFF[m[K’
+[9.287s]    36 | [01;36m[KRAPIDJSON_DIAG_OFF[m[K(array - bounds)  // some gcc versions generate wrong warnings
+[9.287s]       | [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[9.714s] [ 83%] [32m[1mLinking CXX shared library liblivox_lidar_sdk_shared.so[0m
+[10.875s] [ 83%] Built target livox_lidar_sdk_shared
+[12.206s] [ 84%] [32m[1mLinking CXX static library liblivox_lidar_sdk_static.a[0m
+[12.458s] [ 84%] Built target livox_lidar_sdk_static
+[12.492s] [ 85%] [32mBuilding CXX object samples/multi_lidars_upgrade/CMakeFiles/multi_lidars_upgrade.dir/main.cpp.o[0m
+[12.493s] [ 86%] [32mBuilding CXX object samples/lidar_cmd_observer/CMakeFiles/lidar_cmd_observer.dir/main.cpp.o[0m
+[12.497s] [ 89%] [32mBuilding CXX object samples/debug_point_cloud/CMakeFiles/debug_point_cloud.dir/main.cpp.o[0m
+[12.497s] [ 89%] [32mBuilding CXX object samples/livox_lidar_quick_start/CMakeFiles/livox_lidar_quick_start.dir/main.cpp.o[0m
+[12.502s] [ 92%] [32mBuilding CXX object samples/livox_lidar_rmc_time_sync/CMakeFiles/livox_lidar_rmc_time_sync.dir/linux/synchro.cpp.o[0m
+[12.502s] [ 92%] [32mBuilding CXX object samples/livox_lidar_rmc_time_sync/CMakeFiles/livox_lidar_rmc_time_sync.dir/main.cpp.o[0m
+[12.502s] [ 92%] [32mBuilding CXX object samples/logger/CMakeFiles/logger.dir/main.cpp.o[0m
+[12.675s] [ 93%] [32m[1mLinking CXX executable lidar_cmd_observer[0m
+[12.681s] [ 95%] [32m[1mLinking CXX executable livox_lidar_quick_start[0m
+[12.806s] [ 96%] [32m[1mLinking CXX executable debug_point_cloud[0m
+[12.929s] [ 97%] [32m[1mLinking CXX executable logger[0m
+[13.002s] [ 98%] [32m[1mLinking CXX executable multi_lidars_upgrade[0m
+[13.002s] [100%] [32m[1mLinking CXX executable livox_lidar_rmc_time_sync[0m
+[13.477s] [100%] Built target lidar_cmd_observer
+[13.669s] [100%] Built target livox_lidar_quick_start
+[13.806s] [100%] Built target multi_lidars_upgrade
+[13.828s] [100%] Built target debug_point_cloud
+[13.864s] [100%] Built target livox_lidar_rmc_time_sync
+[14.011s] [100%] Built target logger
+[14.027s] Invoked command in '/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2 -- -j18 -l18
+[14.040s] Invoking command in '/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2': /usr/bin/cmake --install /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2
+[14.050s] -- Install configuration: ""
+[14.050s] -- Installing: /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/lib/liblivox_lidar_sdk_static.a
+[14.063s] -- Installing: /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/include/livox_lidar_def.h
+[14.063s] -- Installing: /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/include/livox_lidar_api.h
+[14.063s] -- Installing: /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/include/livox_lidar_cfg.h
+[14.063s] -- Installing: /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/install/livox_sdk2/lib/liblivox_lidar_sdk_shared.so
+[14.068s] Invoked command in '/home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/talon/ros2_ws/src/Sensor_drivers/ws_livox/build/livox_sdk2
